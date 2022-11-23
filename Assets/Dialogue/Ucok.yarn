@@ -1,0 +1,23 @@
+title: Start
+tags: 
+colorID: 0
+position: 667,296
+---
+Ucok: Kamu nanyeaa?
+[[ Iya aku bertanya-tanya |unknown]]
+[[ Kupukul kamu |knowledge]]
+===
+title: unknown
+tags: 
+colorID: 0
+position: 787,76
+---
+Ucok: Bacot kau dek, pigi sana!
+===
+title: knowledge
+tags: 
+colorID: 0
+position: 1007,76
+---
+Ucok: Yauda dek, aku kasi tau ya, ini tuh rambut cepmek.
+===

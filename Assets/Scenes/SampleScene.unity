@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 618071072}
   - component: {fileID: 618071071}
   - component: {fileID: 618071070}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,7 +422,7 @@ GameObject:
   - component: {fileID: 895616651}
   - component: {fileID: 895616650}
   - component: {fileID: 895616649}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,6 +689,7 @@ GameObject:
   - component: {fileID: 1540758470}
   - component: {fileID: 1540758469}
   - component: {fileID: 1540758471}
+  - component: {fileID: 1540758472}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -797,7 +798,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1540758471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,10 +808,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 1540758462}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 681b3a0e1641d974da78197dec0d55e7, type: 3}
+  m_Script: {fileID: 11500000, guid: f576d11484a51294fb150c3dc06a1c9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charRigidBody: {fileID: 1540758470}
+  animator: {fileID: 1540758472}
+  puppet: {fileID: 1540758468}
+  acceleration: 60
+  maxSpeed: 10
+  jumpForce: 11.5
+  minFlipSpeed: 0.1
+  jumpGravityScale: 1
+  fallGravityScale: 3
+  groundedGravityScale: 1
+  resetSpeedOnLand: 0
+--- !u!95 &1540758472
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540758462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1733306837
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,7 +854,7 @@ GameObject:
   - component: {fileID: 1733306841}
   - component: {fileID: 1733306840}
   - component: {fileID: 1733306839}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -954,7 +984,7 @@ GameObject:
   - component: {fileID: 1899100929}
   - component: {fileID: 1899100928}
   - component: {fileID: 1899100931}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}

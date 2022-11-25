@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using Yarn.Unity;
 
@@ -35,6 +36,7 @@ public class DialogueMover : MonoBehaviour
         else
             name = "Player";
         // Search the GameObject of the character in the Scene
+
         character = GameObject.Find(name);
         // Sets the dialogue position
         SetDialoguePosition(character);

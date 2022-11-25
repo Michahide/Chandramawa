@@ -718,6 +718,7 @@ PrefabInstance:
     - {fileID: 5888174120103746797, guid: 9ce48e29e0cfd33468a0c33861473476, type: 3}
     - {fileID: 8247761205106177327, guid: 9ce48e29e0cfd33468a0c33861473476, type: 3}
     - {fileID: 8083987143088239718, guid: 9ce48e29e0cfd33468a0c33861473476, type: 3}
+    - {fileID: 1020117530125659002, guid: 9ce48e29e0cfd33468a0c33861473476, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9ce48e29e0cfd33468a0c33861473476, type: 3}
 --- !u!1 &177192612
 GameObject:
@@ -2731,7 +2732,7 @@ GameObject:
   - component: {fileID: 1540758471}
   - component: {fileID: 1540758472}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3777,6 +3778,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5458180036977825096, guid: 185cc8c3afe346b40aeeb80b6c2a74e5, type: 3}
+      propertyPath: m_Size.x
+      value: 1.6606522
+      objectReference: {fileID: 0}
+    - target: {fileID: 5458180036977825096, guid: 185cc8c3afe346b40aeeb80b6c2a74e5, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.89554214
+      objectReference: {fileID: 0}
     - target: {fileID: 5458180036977825097, guid: 185cc8c3afe346b40aeeb80b6c2a74e5, type: 3}
       propertyPath: m_Name
       value: SceneInteraction

@@ -26,7 +26,7 @@ public class DialogueMover : MonoBehaviour
     public void SetDialogueOnTalkingCharacter()
     {
         GameObject character;
-        string line, name;
+        string line;
 
         // Get the dialogue line
         line = dialogueUI.GetLineText();
@@ -45,7 +45,7 @@ public class DialogueMover : MonoBehaviour
     private void SetDialoguePosition(GameObject character)
     {
         // Retrieve the position where the top part of the sprite is in the world
-        float characterSpriteHeight = character.GetComponent<SpriteRenderer>().sprite.bounds.extents.y;
+        float characterSpriteHeight = character.GetComponent<SpriteRenderer>().sprite.bounds.extents.y*19/10;
 
         // Create position with the sprite top location
         Vector3 characterPosition = new Vector3(character.transform.position.x,

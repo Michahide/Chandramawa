@@ -10,7 +10,8 @@ public enum GroundType
 
 public class PlayerController : MonoBehaviour
 {
-    readonly Vector3 flippedScale = new Vector3(-1, 1, 1);
+    readonly Vector3 normalScale = new Vector3(0.25f, 0.25f, 0.25f);
+    readonly Vector3 flippedScale = new Vector3(-0.25f, 0.25f, 0.25f);
     readonly Quaternion flippedRotation = new Quaternion(0, 0, 1, 0);
 
     [Header("Character")]
@@ -181,7 +182,7 @@ public class PlayerController : MonoBehaviour
         if (controllerRigidbody.velocity.x > minFlipSpeed && isFlipped)
         {
             isFlipped = false;
-            puppet.localScale = Vector3.one;
+            puppet.localScale = normalScale;
         }
         else if (controllerRigidbody.velocity.x < -minFlipSpeed && !isFlipped)
         {

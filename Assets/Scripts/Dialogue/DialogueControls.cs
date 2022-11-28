@@ -10,7 +10,9 @@ public class DialogueControls : MonoBehaviour
 
     private int optionSize;
     private int currentOption;
-
+    
+    [SerializeField] private DiarySystem diarySys;
+    [SerializeField] private NPC npcClass;
     private bool isOptionDisplayed;
 
     // Start is called before the first frame update
@@ -85,7 +87,13 @@ public class DialogueControls : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
             dialogueUI.SelectOption(currentOption);
+            
             ResetCurrentOption();
+            if(npcClass.komunikasi < 1)
+            {
+                npcClass.komunikasi += 1;
+                diarySys.DiarySys();
+            }
         }
     }
 

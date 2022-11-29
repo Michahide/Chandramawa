@@ -89,9 +89,9 @@ public class DialogueControls : MonoBehaviour
             dialogueUI.SelectOption(currentOption);
             
             ResetCurrentOption();
-            if(npcClass.komunikasi < 1)
+            if(npcClass.communication < 1)
             {
-                npcClass.komunikasi += 1;
+                npcClass.communication += 1;
                 diarySys.DiarySys();
             }
         }

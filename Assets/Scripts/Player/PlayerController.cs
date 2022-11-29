@@ -1,5 +1,6 @@
 using UnityEngine;
 using Yarn.Unity;
+using TMPro;
 
 public enum GroundType
 {
@@ -17,6 +18,7 @@ public class PlayerController : MonoBehaviour
     [Header("Character")]
     [SerializeField] Animator animator = null;
     [SerializeField] Transform puppet = null;
+    [SerializeField] GameObject Diary;
     //[SerializeField] PlayerAudio audioPlayer = null;
 
     [Header("Movement")]
@@ -51,6 +53,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         controllerRigidbody = GetComponent<Rigidbody2D>();
+
         controllerCollider = GetComponent<Collider2D>();
         softGroundMask = LayerMask.GetMask("Ground Soft");
         hardGroundMask = LayerMask.GetMask("Ground Hard");
@@ -80,6 +83,17 @@ public class PlayerController : MonoBehaviour
         // Jumping input
         if (!isJumping && Input.GetKeyDown(KeyCode.Space))
             jumpInput = true;
+
+        //diary
+        if (Input.GetKeyDown(KeyCode.Tab) && !Diary.activeInHierarchy)
+        {
+            Diary.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.Tab) && Diary.activeInHierarchy)
+        {
+            Diary.SetActive(false);
+        }
+
     }
 
     void FixedUpdate()

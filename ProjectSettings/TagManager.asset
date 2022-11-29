@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 21427831
+    locked: 0
+  - name: Rumah
+    uniqueID: 3513463745
+    locked: 0
+  - name: Npc
+    uniqueID: 738226099
+    locked: 0
+  - name: Player
+    uniqueID: 2071454255
+    locked: 0
+  - name: Jalan
+    uniqueID: 3077656113
+    locked: 0
+  - name: ForwardBackground
+    uniqueID: 2673563481
+    locked: 0
+  - name: UI
+    uniqueID: 807972069
+    locked: 0

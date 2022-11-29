@@ -28,6 +28,7 @@ public class DialogueMover : MonoBehaviour
         GameObject character;
         string line;
 
+
         // Get the dialogue line
         line = dialogueUI.GetLineText();
         // Search for the character who's talking
@@ -45,14 +46,14 @@ public class DialogueMover : MonoBehaviour
     private void SetDialoguePosition(GameObject character)
     {
         // Retrieve the position where the top part of the sprite is in the world
-        float characterSpriteHeight = character.GetComponent<SpriteRenderer>().sprite.bounds.extents.y*19/10;
+        float characterSpriteHeight = character.GetComponent<SpriteRenderer>().sprite.bounds.extents.y;
 
         // Create position with the sprite top location
         Vector3 characterPosition = new Vector3(character.transform.position.x,
                                                 characterSpriteHeight,
                                                 character.transform.position.z);
 
-        // Set the DialogueBubble position to the sprite top location in Screen Space
+        // Set the 5 position to the sprite top location in Screen Space
         this.transform.position = cam.WorldToScreenPoint(characterPosition);
     }
 }

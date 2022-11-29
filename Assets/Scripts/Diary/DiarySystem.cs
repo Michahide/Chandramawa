@@ -19,14 +19,7 @@ public class DiarySystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Tab) && !diaryImage.activeInHierarchy)
-        {
-            diaryImage.SetActive(true);
-        }
-        else if(Input.GetKeyDown(KeyCode.Tab) && diaryImage.activeInHierarchy)
-        {
-            diaryImage.SetActive(false);
-        }
+        
     }
 
     public void DiarySys(){

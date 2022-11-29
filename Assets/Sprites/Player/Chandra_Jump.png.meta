@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,7 +103,1057 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Chandra_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2468
+        width: 236
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f19c0e6772b66489b9d289a842d096
+      internalID: -71581289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2468
+        width: 236
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224d3b953a9cc234bafa08fdeafd80a4
+      internalID: 430446904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 2468
+        width: 237
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca396c01c7cbe44f99495fb3d6a9ef4
+      internalID: -528380346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 2468
+        width: 237
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408c6f2b3db960040beedcbb1e8eee60
+      internalID: 1043928174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 2469
+        width: 238
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fe3ce9d73f23244b4dc98f3d2b96e3
+      internalID: 1922285150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 2470
+        width: 237
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab74abda3c95dd4f8b98978d20959a3
+      internalID: -619327623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 2470
+        width: 238
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607f916176d99b8429b1f65d0f17c4ed
+      internalID: -1759175637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2470
+        width: 240
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629d0ff703a88364c9acf6f206274f58
+      internalID: 1504267122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 2472
+        width: 241
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d688633856a75428f2cbefe32a3b9c
+      internalID: -18362317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 2472
+        width: 241
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a8726a5ebc1cf4bad5fc2cd6748972
+      internalID: 529112724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 2473
+        width: 242
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73699fd65e6407246a33fde78d0ec2b8
+      internalID: 1602795112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 3334
+        y: 2473
+        width: 245
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ee9fe312da1f74eb9f575e84a7fca7
+      internalID: 1851008642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1875
+        width: 243
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a3c739d51f4814ea08522a1bfc0a71
+      internalID: -832595360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1875
+        width: 244
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6313576f9cfe10409e427737e546e38
+      internalID: 1616429382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1876
+        width: 247
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d9559d009cfd147a997f65cfd68b17
+      internalID: -2076124362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1876
+        width: 248
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d473a1bf6877dea42a0b596e25148dc6
+      internalID: -390022689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1878
+        width: 248
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020a30aacb19acf4badbf4a4d1b1c13f
+      internalID: -1809086074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1876
+        width: 249
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfa0d3647b01bc4181c78b1a29ba612
+      internalID: 1847388489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1880
+        width: 250
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f8dc1d5701bb445baa1e58d8cd5306
+      internalID: -1911237084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1880
+        width: 251
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96b9a33b69bfd340888f6d8e0d9ff46
+      internalID: 573984566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 1879
+        width: 252
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e15c583d8774346a8435a287fc18a0
+      internalID: -1767197021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 1880
+        width: 253
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aac189012a9b1044b2a78c5ea9babef
+      internalID: -1426769947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 1880
+        width: 252
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b091b47ead537a243bdaf0cdc29c626b
+      internalID: 362472278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 1880
+        width: 257
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36ba829af0077b4688156c47e3b2b7d
+      internalID: 885049215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1279
+        width: 260
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865a53d850d835d4ab98a4c72e0a7d49
+      internalID: -155648299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_25
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1279
+        width: 264
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60a916fc7251ca4c9061379ea6680c7
+      internalID: -1547468036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_26
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1278
+        width: 265
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ad9c57e7062594cb6c9c95e9fbc4bd
+      internalID: -1322035104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_27
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1279
+        width: 268
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9883c6c2d8a9444b9bc4139b78d34ba
+      internalID: 1394295333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_28
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1279
+        width: 270
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6862fea42dba5e8449d5e990089f8c22
+      internalID: 354123032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_29
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1280
+        width: 272
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d5816e85bcfee448a59a1a488c688e
+      internalID: 1834148350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_30
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1278
+        width: 272
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4cd977598f47e4b9991835be87da2d
+      internalID: 1035405777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_31
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 1279
+        width: 275
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56115b012bd6174584dbaf83c2c6f0a
+      internalID: -2010989094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_32
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 1280
+        width: 275
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d656db64ba574a46896e9823b29e887
+      internalID: -1494490014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_33
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 1280
+        width: 276
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c7d551da1c9b942a8cb189aec4e050
+      internalID: 2056118241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_34
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 1281
+        width: 276
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad128708ace5b064c93beb887961660a
+      internalID: -1600793213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_35
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 1281
+        width: 278
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd3f5958b2d4164c9516cee1204af98
+      internalID: 238726562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 677
+        width: 278
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa13b64e371a2a4c8aa8aab6e1deba6
+      internalID: -1880246529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_37
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 679
+        width: 278
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca269b2e3d8d2046bdddc0a98279dcc
+      internalID: -1070749695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_38
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 679
+        width: 279
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb38b3feb2427046a9084e8196627db
+      internalID: 1504158337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_39
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 674
+        width: 275
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee31c47c6aa3f145a6436f2c13fd9f7
+      internalID: -440055497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_40
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 675
+        width: 262
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f2cf1eff10c21428e69c863d6fc151
+      internalID: 425172218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_41
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 671
+        width: 251
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b21bcd04e0a904191e809e41650462
+      internalID: 1330848905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_42
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 669
+        width: 248
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c51842b17000b48a6a57d8dab6a65d
+      internalID: -430984071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_43
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 667
+        width: 244
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd2873d30ae2df4e966607bb6e07a12
+      internalID: -1722006783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_44
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 668
+        width: 241
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e6a047f771f294ca0e358a4ef692ef
+      internalID: -1159182575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_45
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 661
+        width: 239
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f23e23ebea100459a18414fab868ac
+      internalID: 1641486007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_46
+      rect:
+        serializedVersion: 2
+        x: 3042
+        y: 660
+        width: 239
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fc364a8722fb24fa07974ab0139499
+      internalID: -515040643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_47
+      rect:
+        serializedVersion: 2
+        x: 3346
+        y: 665
+        width: 238
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0dba462f96e2244843722e2c5be962
+      internalID: 580948750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 63
+        width: 237
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdc220f0ddb2b743b3c947f163bbcf8
+      internalID: -989769900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Jump_49
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 61
+        width: 237
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5ff139f8ce39d4e8f74caebdaff49a
+      internalID: 760474788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +1164,57 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chandra_Jump_4: 1922285150
+      Chandra_Jump_35: 238726562
+      Chandra_Jump_37: -1070749695
+      Chandra_Jump_2: -528380346
+      Chandra_Jump_41: 1330848905
+      Chandra_Jump_44: -1159182575
+      Chandra_Jump_29: 1834148350
+      Chandra_Jump_8: -18362317
+      Chandra_Jump_12: -832595360
+      Chandra_Jump_21: -1426769947
+      Chandra_Jump_34: -1600793213
+      Chandra_Jump_27: 1394295333
+      Chandra_Jump_48: -989769900
+      Chandra_Jump_31: -2010989094
+      Chandra_Jump_3: 1043928174
+      Chandra_Jump_20: -1767197021
+      Chandra_Jump_0: -71581289
+      Chandra_Jump_24: -155648299
+      Chandra_Jump_36: -1880246529
+      Chandra_Jump_30: 1035405777
+      Chandra_Jump_38: 1504158337
+      Chandra_Jump_32: -1494490014
+      Chandra_Jump_5: -619327623
+      Chandra_Jump_22: 362472278
+      Chandra_Jump_23: 885049215
+      Chandra_Jump_6: -1759175637
+      Chandra_Jump_16: -1809086074
+      Chandra_Jump_7: 1504267122
+      Chandra_Jump_18: -1911237084
+      Chandra_Jump_25: -1547468036
+      Chandra_Jump_14: -2076124362
+      Chandra_Jump_9: 529112724
+      Chandra_Jump_40: 425172218
+      Chandra_Jump_45: 1641486007
+      Chandra_Jump_42: -430984071
+      Chandra_Jump_39: -440055497
+      Chandra_Jump_10: 1602795112
+      Chandra_Jump_26: -1322035104
+      Chandra_Jump_1: 430446904
+      Chandra_Jump_47: 580948750
+      Chandra_Jump_43: -1722006783
+      Chandra_Jump_49: 760474788
+      Chandra_Jump_19: 573984566
+      Chandra_Jump_17: 1847388489
+      Chandra_Jump_46: -515040643
+      Chandra_Jump_15: -390022689
+      Chandra_Jump_13: 1616429382
+      Chandra_Jump_28: 354123032
+      Chandra_Jump_11: 1851008642
+      Chandra_Jump_33: 2056118241
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

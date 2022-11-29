@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,7 +103,847 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Chandra_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1866
+        width: 210
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad5a83333581b749a5f75b767a251cd
+      internalID: 1358124592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1866
+        width: 210
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3a9c61c0d853b4ba8c7afae87321b8
+      internalID: -1915320725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1867
+        width: 209
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799cc5dcd3556944ebe0b7b58831b609
+      internalID: 1272334760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1867
+        width: 209
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b96133cd2f18714489660a6ea6f5faf
+      internalID: 495468006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1867
+        width: 209
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f7b367313d8cb498f83f8ca8a85965
+      internalID: 2061360719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1867
+        width: 210
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3428890fec92c34b91b68235f1453f5
+      internalID: 488666196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1866
+        width: 210
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3386a82bddb889b458e6833d840234bd
+      internalID: 829432787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1866
+        width: 209
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161ef7d879e31054bbd2ea5911714358
+      internalID: 1580178916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1866
+        width: 210
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa088852295783640bcdcb29d1bb253b
+      internalID: 1014229044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 1866
+        width: 210
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87604c74e85b178419e183e8af0cede5
+      internalID: 479455929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 1866
+        width: 210
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb39fbe1a2ba29428595f19e633972e
+      internalID: -697099396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 1866
+        width: 210
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d4fab0fb62303499ca7ca3cc321367
+      internalID: 1183955301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1267
+        width: 210
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51711b99035d704ca54af2ab24ae74a
+      internalID: -324378884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1267
+        width: 210
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6403195697c24364f844568d172a132d
+      internalID: -975988283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1267
+        width: 209
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eadd03294ae5b4a83d59dbe95de645
+      internalID: -778364044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1267
+        width: 209
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d165f7d7a4e0847983320050eb24a6
+      internalID: -654659520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1265
+        width: 210
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db462882e33b67419255c8bf744dd5e
+      internalID: -1247442241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1267
+        width: 210
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ed3bcd36ff6084dba27b526b65410a
+      internalID: 1140706116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1269
+        width: 210
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b5984091407bd4290367c6d6057a6e
+      internalID: -676679436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1265
+        width: 209
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020760072773a3b4cbd3f4c6700c7e60
+      internalID: -1701287911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1265
+        width: 210
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e30235803126324093c5c266679e4f5
+      internalID: 657476251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 1265
+        width: 210
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9630624ee03f4ce4290726be307f0565
+      internalID: -107072982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 1269
+        width: 209
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6765fb9c7a263db47b0dbed3e74392e3
+      internalID: -470108044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 1265
+        width: 210
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f957e6b06dcd1d42ab3f2826ac758b6
+      internalID: 1775529587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 667
+        width: 209
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cc5ccf4821c284a84cd640d4fc7768
+      internalID: 386513102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 667
+        width: 210
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87b3c62312da59459e9a64b3fb9a24f
+      internalID: 1193034029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 667
+        width: 211
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9391606cc3ee23548a6752a4016d68b0
+      internalID: 1109877081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 667
+        width: 210
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764784cb65ab1a84fb8265589020101a
+      internalID: 1494883767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 667
+        width: 209
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83235e0808f237e4f8892670f481b692
+      internalID: 301854276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 667
+        width: 210
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dca9294b4f5534fa16c2499ee5f2af
+      internalID: 441905850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 667
+        width: 210
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7204aa6bc16c2cc459e6eecce5c246fc
+      internalID: -242543096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 667
+        width: 210
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e419bf26351e249b73fed07d30ef89
+      internalID: -473218241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 667
+        width: 209
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1089d36d5b0816488801dd42a6b5ded
+      internalID: -657093933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 667
+        width: 209
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6363dea918d87334e93266a2ac528b50
+      internalID: 1913454083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 667
+        width: 211
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d162d86e60df54da3c2c300fa1f62a
+      internalID: -1499689207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 667
+        width: 210
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbb0253d4ee0584e9763555c204f268
+      internalID: 2026300307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 66
+        width: 209
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cc853d6ef89934394baff5215ffbca
+      internalID: 1162041795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 66
+        width: 210
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ac6a7576874f348b1b42d605a9bbe1
+      internalID: -1643068603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 66
+        width: 210
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e52fceef6b95549b156feb9cdbbc5e
+      internalID: 1866759850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 66
+        width: 209
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051865e316d908d46b11e893d9ae13e5
+      internalID: 781384466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +954,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chandra_Idle_32: -657093933
+      Chandra_Idle_37: -1643068603
+      Chandra_Idle_38: 1866759850
+      Chandra_Idle_11: 1183955301
+      Chandra_Idle_23: 1775529587
+      Chandra_Idle_10: -697099396
+      Chandra_Idle_34: -1499689207
+      Chandra_Idle_29: 441905850
+      Chandra_Idle_4: 2061360719
+      Chandra_Idle_16: -1247442241
+      Chandra_Idle_31: -473218241
+      Chandra_Idle_9: 479455929
+      Chandra_Idle_15: -654659520
+      Chandra_Idle_0: 1358124592
+      Chandra_Idle_1: -1915320725
+      Chandra_Idle_12: -324378884
+      Chandra_Idle_39: 781384466
+      Chandra_Idle_2: 1272334760
+      Chandra_Idle_28: 301854276
+      Chandra_Idle_17: 1140706116
+      Chandra_Idle_26: 1109877081
+      Chandra_Idle_30: -242543096
+      Chandra_Idle_33: 1913454083
+      Chandra_Idle_25: 1193034029
+      Chandra_Idle_13: -975988283
+      Chandra_Idle_22: -470108044
+      Chandra_Idle_19: -1701287911
+      Chandra_Idle_21: -107072982
+      Chandra_Idle_24: 386513102
+      Chandra_Idle_35: 2026300307
+      Chandra_Idle_18: -676679436
+      Chandra_Idle_8: 1014229044
+      Chandra_Idle_3: 495468006
+      Chandra_Idle_27: 1494883767
+      Chandra_Idle_5: 488666196
+      Chandra_Idle_14: -778364044
+      Chandra_Idle_36: 1162041795
+      Chandra_Idle_6: 829432787
+      Chandra_Idle_20: 657476251
+      Chandra_Idle_7: 1580178916
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

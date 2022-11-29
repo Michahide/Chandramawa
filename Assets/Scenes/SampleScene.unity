@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bb88d014cf374847b27af3d8addb9ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  komunikasi: 0
+  communication: 0
   characterName: Siti
   talkToNode: Siti
   scriptToLoad: {fileID: 2480198943629176163, guid: 94e2440b83c8ae84b917013d843cca6d, type: 3}
@@ -1351,8 +1351,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.12370062, y: -0.1231451}
-  m_Size: {x: 2.6084518, y: 8.301706}
+  m_Offset: {x: -0.12370062, y: 0.4}
+  m_Size: {x: 4.09, y: 29.1}
   m_Direction: 0
 --- !u!50 &574772076
 Rigidbody2D:
@@ -1371,9 +1371,9 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &574772077
 MonoBehaviour:
@@ -1439,12 +1439,12 @@ SpriteRenderer:
   m_SortingLayerID: 2071454255
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -263877884, guid: 07d2c1e10e2afd0449051027593d09c6, type: 3}
+  m_Sprite: {fileID: 479455929, guid: ac5f326b1230e2b48bae26f236a690bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5, y: 9.1}
+  m_Size: {x: 13.125593, y: 27.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1458,8 +1458,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574772074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04, y: 0.74, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalPosition: {x: 23.53, y: 1.14, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -1475,7 +1475,7 @@ Animator:
   m_GameObject: {fileID: 574772074}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9daab980bf7cbd5438438d5add4ae798, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1986,7 +1986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bb88d014cf374847b27af3d8addb9ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  komunikasi: 0
+  communication: 0
   characterName: Ucok
   talkToNode: Start
   scriptToLoad: {fileID: 2480198943629176163, guid: 123d30568d7d60f4e901d8d4acbf29a1, type: 3}
@@ -3456,7 +3456,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508121087}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.9197135, y: -4.3364663, z: -9.354272}
+  m_LocalPosition: {x: 15.567717, y: -4.169327, z: -9.354272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4248,7 +4248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081672716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.919553, y: -4.936692, z: -9.354272}
+  m_LocalPosition: {x: 15.570448, y: -4.536692, z: -9.354272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

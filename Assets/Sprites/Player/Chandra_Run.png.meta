@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,7 +103,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Chandra_Run_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1271
+        width: 251
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea39cfd3d89cff34dac102566c34fbf6
+      internalID: 1544959436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1271
+        width: 249
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6656ed7cbc0e04c868d968925b8862
+      internalID: -1533722568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1270
+        width: 241
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92357d6031f6f5548852e517e87489f3
+      internalID: 1722822144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_3
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1269
+        width: 222
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2137a3b645a6e458e5279b276cb157
+      internalID: 969131609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_4
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1269
+        width: 211
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfce3e050fa8d42488f178906688ab70
+      internalID: -715893038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_5
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1265
+        width: 210
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90c4689b9259f743962d03491123db6
+      internalID: 1253591841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_6
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1259
+        width: 210
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174a4dea73b49354486f532d24152962
+      internalID: 905611020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_7
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1260
+        width: 209
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6c0b3121a074f43a8d6e7e0de26eef
+      internalID: 395218175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_8
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 1269
+        width: 210
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1be97bb6e1278b49b74c77289fd3783
+      internalID: 1617117744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_9
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 1281
+        width: 216
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe67e4c099a56a4fb823a6247c6f5c5
+      internalID: -1328240864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_10
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 1290
+        width: 222
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d45c66a1920634c9951933c47e5b7f
+      internalID: 1452096200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_11
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 1286
+        width: 227
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b3b04849a63c247ab484d5cc285044
+      internalID: 555383623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 683
+        width: 230
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956699191ea50ed488e8c4e41233f62f
+      internalID: -1540698291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 679
+        width: 234
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a051fb0c2c7474f8e5c6c07a145b96
+      internalID: -630282767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_14
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 677
+        width: 237
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a467b4d6d82619e4fb86e2c17af50caf
+      internalID: -903371093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_15
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 675
+        width: 238
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c2b50c2fa675444a27e565439a926f
+      internalID: -1299325684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_16
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 675
+        width: 238
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b083ee07c4d5245a23d24150a64b33
+      internalID: -256247122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_17
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 672
+        width: 238
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ed357b63e58f4780733ccd2b06e74
+      internalID: -993689206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_18
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 675
+        width: 235
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa17a0bcf63710141ada3d7c231ec0b0
+      internalID: -1680658022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_19
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 677
+        width: 229
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa59ea20b8df6fd449daa482a7fdc933
+      internalID: 1442965718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_20
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 683
+        width: 225
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aca8148a080da42bc21329514c02db
+      internalID: 791050219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_21
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 677
+        width: 218
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6670d8cd279cb347b92fc5056313cb2
+      internalID: -1075979315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_22
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 667
+        width: 210
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9778848e26ea1f489cfd9ea55e48a31
+      internalID: 711847185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_23
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 661
+        width: 210
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9aa010205548e419b33caa0cd122ed
+      internalID: 294733477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 61
+        width: 210
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fef5a15426127a4dae47799d6c9a0c5
+      internalID: -366882977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 64
+        width: 210
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bcda16bf574934c88aa2a882138385
+      internalID: 298606284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_26
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 73
+        width: 209
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8564f7e65a499dc439d166dc008f98a5
+      internalID: 1319973410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_27
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 75
+        width: 209
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de50f0086e752e64e8efbc4d0adf8f23
+      internalID: -1409307415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_28
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 73
+        width: 218
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138825f66ace21c498d3ed1962b17d1f
+      internalID: -1626391880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_29
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 75
+        width: 225
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428beb933e7f13b4ab14deea7aa3d75a
+      internalID: 669485850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_30
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 72
+        width: 236
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436acb8dd14b96c4084d32d3d8570bea
+      internalID: 12580140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_31
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 73
+        width: 244
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e989e3593706142bde55e86840c231
+      internalID: -585086360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_32
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 73
+        width: 248
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129d4055497a2294095d73250c23d273
+      internalID: 382172081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandra_Run_33
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 71
+        width: 252
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0220135b52914b49ab20981cc41459d
+      internalID: 1992261190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +828,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chandra_Run_27: -1409307415
+      Chandra_Run_0: 1544959436
+      Chandra_Run_29: 669485850
+      Chandra_Run_4: -715893038
+      Chandra_Run_11: 555383623
+      Chandra_Run_1: -1533722568
+      Chandra_Run_19: 1442965718
+      Chandra_Run_7: 395218175
+      Chandra_Run_10: 1452096200
+      Chandra_Run_17: -993689206
+      Chandra_Run_8: 1617117744
+      Chandra_Run_5: 1253591841
+      Chandra_Run_9: -1328240864
+      Chandra_Run_21: -1075979315
+      Chandra_Run_20: 791050219
+      Chandra_Run_33: 1992261190
+      Chandra_Run_30: 12580140
+      Chandra_Run_12: -1540698291
+      Chandra_Run_28: -1626391880
+      Chandra_Run_22: 711847185
+      Chandra_Run_32: 382172081
+      Chandra_Run_2: 1722822144
+      Chandra_Run_3: 969131609
+      Chandra_Run_18: -1680658022
+      Chandra_Run_25: 298606284
+      Chandra_Run_24: -366882977
+      Chandra_Run_13: -630282767
+      Chandra_Run_16: -256247122
+      Chandra_Run_23: 294733477
+      Chandra_Run_26: 1319973410
+      Chandra_Run_15: -1299325684
+      Chandra_Run_6: 905611020
+      Chandra_Run_31: -585086360
+      Chandra_Run_14: -903371093
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

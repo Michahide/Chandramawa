@@ -11,8 +11,8 @@ public enum GroundType
 
 public class PlayerController : MonoBehaviour
 {
-    readonly Vector3 normalScale = new Vector3(0.25f, 0.25f, 0.25f);
-    readonly Vector3 flippedScale = new Vector3(-0.25f, 0.25f, 0.25f);
+    readonly Vector3 normalScale = new Vector3(0.1f, 0.1f, 0.1f);
+    readonly Vector3 flippedScale = new Vector3(-0.1f, 0.1f, 0.1f);
     readonly Quaternion flippedRotation = new Quaternion(0, 0, 1, 0);
 
     [Header("Character")]

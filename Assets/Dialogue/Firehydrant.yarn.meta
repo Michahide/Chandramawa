@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 94e2440b83c8ae84b917013d843cca6d
+guid: 9e5d1c761492abd4b8a57b04f6800b72
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -10,9 +10,8 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
   stringIDs:
-  - Npc-Ucok-0
-  - Npc-Firehydrant-1
-  - Npc-Firehydrant-2
+  - Firehydrant-Firehydrant-0
+  - Firehydrant-Firehydrant-1
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 

@@ -23,10 +23,13 @@ public class ActionTrigger : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             hitpoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Debug.Log("Click");
 
             if (hitbox.OverlapPoint(hitpoint))
             {
                 sceneAction.Interact();
+
+                Debug.Log("Masuk");
 
                 this.gameObject.SetActive(false);
             }

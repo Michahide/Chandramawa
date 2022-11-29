@@ -50,11 +50,11 @@ TagManager:
   - name: Npc
     uniqueID: 738226099
     locked: 0
-  - name: Player
-    uniqueID: 2071454255
-    locked: 0
   - name: Jalan
     uniqueID: 3077656113
+    locked: 0
+  - name: Player
+    uniqueID: 2071454255
     locked: 0
   - name: ForwardBackground
     uniqueID: 2673563481

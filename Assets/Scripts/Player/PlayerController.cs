@@ -88,13 +88,7 @@ public class PlayerController : MonoBehaviour
 
         //diary
        
-       
-
-    }
-
-    void FixedUpdate()
-    {
-         if (Input.GetKeyDown(KeyCode.Tab) && !Diary.activeInHierarchy)
+        if (Input.GetKeyDown(KeyCode.Tab) && !Diary.activeInHierarchy)
         {
             Diary.SetActive(true);
         }
@@ -103,7 +97,13 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(DiaryClose());
             
         }
-        else{
+
+    }
+
+    void FixedUpdate()
+    {
+        
+       
         UpdateGrounding();
         UpdateVelocity();
         UpdateDirection();
@@ -111,7 +111,7 @@ public class PlayerController : MonoBehaviour
         UpdateGravityScale();
 
         prevVelocity = controllerRigidbody.velocity;
-        }
+        
     }
 
     private void UpdateGrounding()

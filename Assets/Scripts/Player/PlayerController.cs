@@ -78,17 +78,26 @@ public class PlayerController : MonoBehaviour
 
 
         // Horizontal movement
+        if(Diary.activeInHierarchy){}
+        else{
         float moveHorizontal = Input.GetAxis("Horizontal");
 
         movementInput = new Vector2(moveHorizontal, 0);
-
-        // Jumping input
         if (!isJumping && Input.GetKeyDown(KeyCode.Space))
             jumpInput = true;
 
+        }
+        // Jumping input
+        
         //diary
        
-        if (Input.GetKeyDown(KeyCode.Tab) && !Diary.activeInHierarchy)
+       
+
+    }
+
+    void FixedUpdate()
+    {
+         if (Input.GetKeyDown(KeyCode.Tab) && !Diary.activeInHierarchy)
         {
             Diary.SetActive(true);
         }
@@ -97,13 +106,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(DiaryClose());
             
         }
-
-    }
-
-    void FixedUpdate()
-    {
-        
-       
+        else{
         UpdateGrounding();
         UpdateVelocity();
         UpdateDirection();
@@ -111,7 +114,7 @@ public class PlayerController : MonoBehaviour
         UpdateGravityScale();
 
         prevVelocity = controllerRigidbody.velocity;
-        
+        }
     }
 
     private void UpdateGrounding()

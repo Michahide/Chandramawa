@@ -4,7 +4,7 @@ using Yarn.Unity;
 public class ActionDialogue : SceneAction
 {
     private DialogueRunner dialogueRunner;
-    private float interactionRadius = 10f;
+    private float interactionRadius = 15f;
 
     private void Start()
     {

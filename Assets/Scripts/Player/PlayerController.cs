@@ -1,7 +1,8 @@
 using UnityEngine;
 using Yarn.Unity;
 using TMPro;
-
+using System.Collections;
+using System.Collections.Generic;
 public enum GroundType
 {
     None,
@@ -30,6 +31,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float fallGravityScale = 1.0f;
     [SerializeField] float groundedGravityScale = 1.0f;
     [SerializeField] bool resetSpeedOnLand = false;
+    [SerializeField] public Animator anim;
 
     private Rigidbody2D controllerRigidbody;
     private Collider2D controllerCollider;
@@ -85,19 +87,23 @@ public class PlayerController : MonoBehaviour
             jumpInput = true;
 
         //diary
-        if (Input.GetKeyDown(KeyCode.Tab) && !Diary.activeInHierarchy)
-        {
-            Diary.SetActive(true);
-        }
-        else if (Input.GetKeyDown(KeyCode.Tab) && Diary.activeInHierarchy)
-        {
-            Diary.SetActive(false);
-        }
+       
+       
 
     }
 
     void FixedUpdate()
     {
+         if (Input.GetKeyDown(KeyCode.Tab) && !Diary.activeInHierarchy)
+        {
+            Diary.SetActive(true);
+        }
+         else if (Input.GetKeyDown(KeyCode.Tab) && Diary.activeInHierarchy)
+        {
+            StartCoroutine(DiaryClose());
+            
+        }
+        else{
         UpdateGrounding();
         UpdateVelocity();
         UpdateDirection();
@@ -105,6 +111,7 @@ public class PlayerController : MonoBehaviour
         UpdateGravityScale();
 
         prevVelocity = controllerRigidbody.velocity;
+        }
     }
 
     private void UpdateGrounding()
@@ -217,5 +224,13 @@ public class PlayerController : MonoBehaviour
         }
 
         controllerRigidbody.gravityScale = gravityScale;
+    }
+
+    IEnumerator DiaryClose(){
+        anim.SetTrigger("DiaryClose");
+        yield return new WaitForSeconds(0.6f);
+        
+        Diary.SetActive(false);
+
     }
 }

@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Is Dialogue");
             return;
         }
-            
+
 
         // Horizontal movement
         float moveHorizontal = Input.GetAxis("Horizontal");

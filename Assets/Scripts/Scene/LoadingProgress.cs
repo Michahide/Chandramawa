@@ -14,7 +14,7 @@ public class LoadingProgress : MonoBehaviour
     IEnumerator Progress()
     {
         image.fillAmount = 0;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
 
         var asyncOp = SceneManager.LoadSceneAsync(SceneLoader.SceneToLoad);
 

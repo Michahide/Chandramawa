@@ -2144,7 +2144,7 @@ GameObject:
   - component: {fileID: 737851526}
   - component: {fileID: 737851529}
   m_Layer: 0
-  m_Name: Kancil
+  m_Name: Ucok
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2163,9 +2163,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   communication: 0
-  characterName: Kancil
-  talkToNode: Kancil
-  scriptToLoad: {fileID: 2480198943629176163, guid: 7b092349e2b36b64f8a22289622bb1ef, type: 3}
+  characterName: Ucok
+  talkToNode: Start
+  scriptToLoad: {fileID: 2480198943629176163, guid: 123d30568d7d60f4e901d8d4acbf29a1, type: 3}
 --- !u!212 &737851527
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2207,7 +2207,7 @@ SpriteRenderer:
   m_SortingLayerID: 738226099
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 166e8bab2157dc5419e658b00a40f9db, type: 3}
+  m_Sprite: {fileID: -263877884, guid: 07d2c1e10e2afd0449051027593d09c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2226,8 +2226,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737851525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.71, y: 1.04, z: 0}
-  m_LocalScale: {x: 0.28, y: 0.28, z: 0.28}
+  m_LocalPosition: {x: 24.71, y: 1.16, z: 0}
+  m_LocalScale: {x: 0.33, y: 0.33, z: 0.33}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1014950950}
@@ -5648,10 +5648,6 @@ PrefabInstance:
       propertyPath: sceneAction
       value: 
       objectReference: {fileID: 2139373736}
-    - target: {fileID: 8627081488409509161, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.22
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e643dee500a6bff47a59caf743023228, type: 3}
 --- !u!1001 &4985463197193746248

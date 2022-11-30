@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LeafAlley.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/AutumnTown.unity
+    guid: b6e1f414a79e9d64fb4deb7950598d16
   m_configObjects: {}

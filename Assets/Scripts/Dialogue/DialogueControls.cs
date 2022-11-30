@@ -78,6 +78,10 @@ public class DialogueControls : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            if (npcClass.communication < 1)
+            {
+                npcClass.communication += 1;
+            }
             dialogueUI.MarkLineComplete();
         }
     }
@@ -89,11 +93,7 @@ public class DialogueControls : MonoBehaviour
             dialogueUI.SelectOption(currentOption);
             
             ResetCurrentOption();
-            if(npcClass.communication < 1)
-            {
-                npcClass.communication += 1;
-                diarySys.DiarySys();
-            }
+            
         }
     }
 

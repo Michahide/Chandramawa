@@ -9,6 +9,8 @@ public class TimerScript : MonoBehaviour
     [SerializeField] private bool TimerOn = false;
 
     public TMP_Text TimerText;
+    public readonly NPC npcCom;
+    private string sceneName;
 
     void Start()
     {
@@ -24,9 +26,17 @@ public class TimerScript : MonoBehaviour
                 TimeLeft -= Time.deltaTime;
                 updateTimer(TimeLeft);
             }
-            else
+
+            else if(TimeLeft == 0 || TimeLeft < 0)
             {
-                Debug.Log("You Gon Suicide!");
+                Debug.Log("death");
+                //if (npcCom.communication == 0)
+                //{
+                //    sceneName = "Death";
+                    
+                //    SceneLoaderManager.ProgressLoad(sceneName);
+                //}
+
                 TimeLeft = 0;
                 TimerOn = false;
             }

@@ -4,7 +4,7 @@ using UnityEngine;
 /// node that should be run when you talk to them.
 public class NPC : MonoBehaviour
 {
-    [SerializeField]public int communication = 0;
+    public int communication = 0;
     
     public string characterName = "";
 

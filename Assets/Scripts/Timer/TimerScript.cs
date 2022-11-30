@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Transactions;
 
 public class TimerScript : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class TimerScript : MonoBehaviour
     [SerializeField] private bool TimerOn = false;
 
     public TMP_Text TimerText;
-    public readonly NPC npcCom;
+    public int npc;
     private string sceneName;
 
     void Start()
@@ -19,6 +20,8 @@ public class TimerScript : MonoBehaviour
 
     void Update()
     {
+        npc = GameObject.Find("Kancil").GetComponent<NPC>().communication;
+
         if (TimerOn)
         {
             if (TimeLeft > 0)
@@ -29,13 +32,18 @@ public class TimerScript : MonoBehaviour
 
             else if(TimeLeft == 0 || TimeLeft < 0)
             {
-                Debug.Log("death");
-                //if (npcCom.communication == 0)
-                //{
-                //    sceneName = "Death";
-                    
-                //    SceneLoaderManager.ProgressLoad(sceneName);
-                //}
+                
+                if (npc == 0)
+                {
+                    Debug.Log("death");
+                    sceneName = "Death";
+                    SceneLoaderManager.ProgressLoad(sceneName);
+                }
+
+                else
+                {
+                    Debug.Log("You survived");
+                }
 
                 TimeLeft = 0;
                 TimerOn = false;

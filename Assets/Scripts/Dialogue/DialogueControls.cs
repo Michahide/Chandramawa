@@ -12,7 +12,7 @@ public class DialogueControls : MonoBehaviour
     private int currentOption;
     
     [SerializeField] private DiarySystem diarySys;
-    [SerializeField] private NPC npcClass;
+    public NPC npcClass;
     private bool isOptionDisplayed;
 
     // Start is called before the first frame update

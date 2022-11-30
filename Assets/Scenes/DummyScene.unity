@@ -2608,6 +2608,7 @@ MonoBehaviour:
   TimeLeft: 5
   TimerOn: 0
   TimerText: {fileID: 1902639600}
+  npc: {fileID: 737851526}
 --- !u!114 &881678077
 MonoBehaviour:
   m_ObjectHideFlags: 0

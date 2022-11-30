@@ -5,12 +5,18 @@ public class LevelMover : MonoBehaviour
 {
     public string sceneName;
 
-    private void OnTriggerEnter2D(Collider2D other)
+
+    private void Start()
     {
-        if(other.tag == "Player")
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("Masuk");
-            SceneLoaderManager.ProgressLoad(sceneName);
+                SceneLoaderManager.ProgressLoad(sceneName);
+
+                this.gameObject.SetActive(false);
         }
     }
 }

@@ -1,15 +1,30 @@
+title: Siti
+tags: 
+colorID: 0
+position: 328,25
+---
+Siti: Perkenalkan nama aku siti, bukan Siti Badriah!
+===
 title: Ucok
 tags: 
 colorID: 0
-position: 897,192
+position: 677,232
 ---
-Ucok: Nama aku Ucok
+Ucok: Kamu nanyeaa?
+[[ Iya aku bertanya-tanya |unknown]]
+[[ Kupukul kamu |knowledge]]
 ===
-title: Firehydrant
+title: unknown
 tags: 
 colorID: 0
-position: 1136,192
+position: 717,-43
 ---
-Player: This firehydrant looks kinda odd
-Player: Wondering if i could use it as a rocket to fly to the moon.
+Ucok: Bacot kau dek, pigi sana!
+===
+title: knowledge
+tags: 
+colorID: 0
+position: 930,-40
+---
+Ucok: Yauda dek, aku kasi tau ya, ini tuh rambut cepmek.
 ===

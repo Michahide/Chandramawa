@@ -1847,6 +1847,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1492483052028039889, guid: e643dee500a6bff47a59caf743023228, type: 3}
+      propertyPath: talkToNode
+      value: Jendela
+      objectReference: {fileID: 0}
+    - target: {fileID: 1492483052028039889, guid: e643dee500a6bff47a59caf743023228, type: 3}
+      propertyPath: scriptToLoad
+      value: 
+      objectReference: {fileID: 2480198943629176163, guid: 65068312ac0f3e345b815efdcb841a76, type: 3}
+    - target: {fileID: 1492483052028039889, guid: e643dee500a6bff47a59caf743023228, type: 3}
+      propertyPath: characterName
+      value: Jendela
+      objectReference: {fileID: 0}
     - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1893,7 +1905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1492483052028039917, guid: e643dee500a6bff47a59caf743023228, type: 3}
       propertyPath: m_Name
-      value: Firehydrant
+      value: Jendela
       objectReference: {fileID: 0}
     - target: {fileID: 7018731446688387931, guid: e643dee500a6bff47a59caf743023228, type: 3}
       propertyPath: sceneAction

@@ -8,6 +8,7 @@ public class TimerScript : MonoBehaviour
 {
     [SerializeField] private float TimeLeft;
     [SerializeField] private bool TimerOn = false;
+    [SerializeField] private string objectName;
 
     public TMP_Text TimerText;
     public int npc;
@@ -20,7 +21,7 @@ public class TimerScript : MonoBehaviour
 
     void Update()
     {
-        npc = GameObject.Find("Kancil").GetComponent<NPC>().communication;
+        npc = GameObject.Find(objectName).GetComponent<NPC>().communication;
 
         if (TimerOn)
         {

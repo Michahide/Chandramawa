@@ -10,6 +10,8 @@ public class AudioManager : MonoBehaviour
     // [SerializeField] private AudioMixerGroup soundEffectsMixerGroup;
     [SerializeField] private Sound[] sounds;
 
+    private static AudioManager instance;
+
     private void Awake()
     {
         Instance = this;
@@ -34,6 +36,16 @@ public class AudioManager : MonoBehaviour
 
             if (s.playOnAwake)
                 s.source.Play();
+
+            if (AudioManager.instance == null)
+            {
+                AudioManager.instance = this;
+                GameObject.DontDestroyOnLoad(this.gameObject);
+            }
+            else
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
 

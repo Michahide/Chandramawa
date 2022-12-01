@@ -843,8 +843,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 2074342412}
-  diarySys: {fileID: 0}
-  npcClass: {fileID: 0}
+  objectName: 
+  NPC: {fileID: 0}
+  npc: 0
 --- !u!1 &463251301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,7 +1572,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &858552628
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1645,6 +1646,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeLeft: 60
   TimerOn: 0
+  objectName: 
+  Options: {fileID: 414150590}
   TimerText: {fileID: 298873368}
 --- !u!1 &886586094
 GameObject:

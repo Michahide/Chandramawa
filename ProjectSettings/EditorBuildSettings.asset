@@ -30,6 +30,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Death.unity
     guid: 517cd1b115d74454192533eb4f00a6a5
   - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Scenes/DummyScene1.unity
+    guid: 7df6c687d6502cf4db89ddb8834add3b
+=======
     path: Assets/Scenes/DummyScene.unity
     guid: e57b8df3893c3e04c90dcd241ecf7cb3
+>>>>>>> 22b59ff2b06282e8d825968a7991cdf8d648eb19
   m_configObjects: {}

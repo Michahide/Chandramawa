@@ -4,12 +4,13 @@ using UnityEngine.UI;
 using TMPro;
 using System.Transactions;
 
-public class TimerScript : MonoBehaviour
+public class TimerScriptContinue : MonoBehaviour
 {
     public float TimeLeft;
     [SerializeField] private bool TimerOn = false;
     [SerializeField] private string objectName;
     [SerializeField] private GameObject Options;
+    private TimeManager timeManager;
 
     public TMP_Text TimerText;
     private int npc;
@@ -17,6 +18,8 @@ public class TimerScript : MonoBehaviour
 
     void Start()
     {
+        timeManager = FindObjectOfType<TimeManager>();
+        TimeLeft = timeManager.Timer;
         TimerOn = true;
     }
 
@@ -56,7 +59,7 @@ public class TimerScript : MonoBehaviour
         }
     }
 
-    public void UpdateTimer (float currentTime)
+    void UpdateTimer (float currentTime)
     {
         currentTime += 1;
 

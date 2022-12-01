@@ -9,9 +9,10 @@ public class TimerScript : MonoBehaviour
     [SerializeField] private float TimeLeft;
     [SerializeField] private bool TimerOn = false;
     [SerializeField] private string objectName;
+    [SerializeField] private GameObject Options;
 
     public TMP_Text TimerText;
-    public int npc;
+    private int npc;
     private string sceneName;
 
     void Start()
@@ -21,14 +22,14 @@ public class TimerScript : MonoBehaviour
 
     void Update()
     {
-        npc = GameObject.Find(objectName).GetComponent<NPC>().communication;
+        npc = Options.GetComponent<DialogueControls>().npc;
 
         if (TimerOn)
         {
             if (TimeLeft > 0)
             {
                 TimeLeft -= Time.deltaTime;
-                updateTimer(TimeLeft);
+                UpdateTimer(TimeLeft);
             }
 
             else if(TimeLeft == 0 || TimeLeft < 0)
@@ -52,7 +53,7 @@ public class TimerScript : MonoBehaviour
         }
     }
 
-    void updateTimer (float currentTime)
+    void UpdateTimer (float currentTime)
     {
         currentTime += 1;
 

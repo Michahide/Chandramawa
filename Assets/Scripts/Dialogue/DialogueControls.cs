@@ -4,14 +4,16 @@ using UnityEngine;
 public class DialogueControls : MonoBehaviour
 {
     [SerializeField] private TMPro.TMP_Text dialogue = null;
+    [SerializeField] private string objectName;
+    [SerializeField] private GameObject NPC;
 
     private DialogueUI dialogueUI = null;
     private TMPro.TMP_Text[] options;
 
     private int optionSize;
     private int currentOption;
-    
-    public NPC npcClass;
+    public int npc;
+
     private bool isOptionDisplayed;
 
     // Start is called before the first frame update
@@ -37,6 +39,7 @@ public class DialogueControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        npc = NPC.GetComponent<NPC>().communication;
         ControlOptions();
     }
 
@@ -77,16 +80,9 @@ public class DialogueControls : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (npcClass.communication < 1)
-            {
-                npcClass.communication += 1;
-                dialogueUI.MarkLineComplete();
-            }
-            else if(npcClass = null)
-            {
-                dialogueUI.MarkLineComplete();
-            }
-            
+            npc += 1; 
+            dialogueUI.MarkLineComplete();
+
         }
     }
 

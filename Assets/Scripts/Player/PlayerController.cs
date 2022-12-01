@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float groundedGravityScale = 1.0f;
     [SerializeField] bool resetSpeedOnLand = false;
     [SerializeField] public Animator anim;
+    public bool isGroundHard;
 
     private Rigidbody2D controllerRigidbody;
     private Collider2D controllerCollider;
@@ -42,9 +43,9 @@ public class PlayerController : MonoBehaviour
     private bool jumpInput;
 
     private Vector2 prevVelocity;
-    private GroundType groundType;
+    public GroundType groundType;
     private bool isFlipped;
-    private bool isJumping;
+    public bool isJumping;
     private bool isFalling;
 
     private int animatorGroundedBool;
@@ -117,12 +118,18 @@ public class PlayerController : MonoBehaviour
     private void UpdateGrounding()
     {
         // Use character collider to check if touching ground layers
-        if (controllerCollider.IsTouchingLayers(softGroundMask))
+        if (controllerCollider.IsTouchingLayers(softGroundMask)){
             groundType = GroundType.Soft;
-        else if (controllerCollider.IsTouchingLayers(hardGroundMask))
+            isGroundHard = false;
+        }
+        else if (controllerCollider.IsTouchingLayers(hardGroundMask)){
             groundType = GroundType.Hard;
-        else
+                isGroundHard = true;
+            }
+        else{
             groundType = GroundType.None;
+            isGroundHard = false;
+        }
 
         // Update animator
         animator.SetBool(animatorGroundedBool, groundType != GroundType.None);
@@ -161,6 +168,7 @@ public class PlayerController : MonoBehaviour
         // Set falling flag
         if (isJumping && controllerRigidbody.velocity.y < 0)
             isFalling = true;
+            
 
         // Jump
         if (jumpInput && groundType != GroundType.None)
@@ -191,6 +199,7 @@ public class PlayerController : MonoBehaviour
             // Reset jumping flags
             isJumping = false;
             isFalling = false;
+            
 
             // Play audio
             //audioPlayer.PlayLanding(groundType);

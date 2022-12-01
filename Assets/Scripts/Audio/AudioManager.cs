@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -41,12 +42,20 @@ public class AudioManager : MonoBehaviour
             {
                 AudioManager.instance = this;
                 GameObject.DontDestroyOnLoad(this.gameObject);
+                SceneManager.sceneLoaded += OnSceneLoaded;
             }
             else
             {
                 Destroy(this.gameObject);
             }
         }
+    }
+
+     void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode) {
+       if (scene.name == "Death") {
+             Destroy(this.gameObject);
+             Debug.Log("I am inside the if statement");
+       }
     }
 
     public void Play(string clipname)

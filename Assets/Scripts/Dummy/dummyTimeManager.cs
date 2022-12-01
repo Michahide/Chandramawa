@@ -9,7 +9,6 @@ public class dummyTimeManager : MonoBehaviour
 {
     [SerializeField] private string objectName;
     [SerializeField] private bool TimerOn = false;
-    [SerializeField] private GameObject Options;
 
     private TMP_Text Timer;
     private int npc;
@@ -24,11 +23,6 @@ public class dummyTimeManager : MonoBehaviour
     private void Update()
     {
         Timer = GameObject.Find("TimerTxt").GetComponent<TMP_Text>();
-
-        if (objectName != null)
-        {
-            npc = Options.GetComponent<DialogueControls>().npc;
-        }
 
         if (TimerOn)
         {

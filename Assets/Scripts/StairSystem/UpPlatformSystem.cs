@@ -27,7 +27,6 @@ public class UpPlatformSystem : MonoBehaviour
 
         if (pContr.isGroundHard == true)
         {
-                Debug.Log("FalseHard");
             stairBool = false;
         }
     }

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6195b23668bd63041a648d239ac22a3a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Skilvul-Skilvul-0
+  - Skilvul-Skilvul-1
+  - Skilvul-Skilvul-2
+  - Skilvul-Skilvul-3
+  - Skilvul-Skilvul-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

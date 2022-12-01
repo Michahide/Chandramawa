@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/LoadingProgress.unity
+    path: Assets/Scenes/CutScenes/LoadingProgress.unity
     guid: 6d9f4118ebf3b5c469b6d9ef0851d644
   - enabled: 1
     path: Assets/Scenes/Day1/Chandra'sHouse.unity
@@ -27,9 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Day1/backtoLeafAlley.unity
     guid: da808b95371140a41980f00157df21e6
   - enabled: 1
-    path: Assets/Scenes/Death.unity
+    path: Assets/Scenes/CutScenes/Death.unity
     guid: 517cd1b115d74454192533eb4f00a6a5
   - enabled: 1
     path: Assets/Scenes/DummyScene.unity
     guid: e57b8df3893c3e04c90dcd241ecf7cb3
+  - enabled: 1
+    path: Assets/Scenes/DummyScene1.unity
+    guid: 7df6c687d6502cf4db89ddb8834add3b
   m_configObjects: {}

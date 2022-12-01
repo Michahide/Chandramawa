@@ -7,12 +7,14 @@ public class TimeManager : MonoBehaviour
     private TimerScript timerScript;
     public float Timer;
     void Start()
-    {   
-        timerScript = FindObjectOfType<TimerScript>();
+    {
+        
         DontDestroyOnLoad(gameObject);
     }
     private void Update()
     {
+        timerScript = FindObjectOfType<TimerScript>();
+
         Timer = timerScript.TimeLeft;
     }
 }

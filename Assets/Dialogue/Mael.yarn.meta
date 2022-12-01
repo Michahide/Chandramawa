@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: a9d837da5d45b7b47a0920af9bc5566c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Mael-Mael-0
+  - Mael-Mael-1
+  - Mael-Mael-2
+  - Mael-Mael-3
+  - Mael-Mael-4
+  - Mael-Mael-5
+  - Mael-Mael-6
+  - Mael-Mael-7
+  - Mael-Mael-8
+  - Mael-Mael-9
+  - Mael-Mael-10
+  - Mael-Mael-11
+  - Mael-Mael-12
+  - Mael-Mael-13
+  - Mael-Mael-14
+  - Mael-Mael-15
+  - Mael-Mael-16
+  - Mael-Mael-17
+  - Mael-Mael-18
+  - Mael-Mael-19
+  - Mael-Mael-20
+  - Mael-Mael-21
+  - Mael-Mael-22
+  - Mael-Mael-23
+  - Mael-Mael-24
+  - Mael-Mael-25
+  - Mael-Mael-26
+  - Mael-Mael-27
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: a9d837da5d45b7b47a0920af9bc5566c, type: 3}
+  localizations: []

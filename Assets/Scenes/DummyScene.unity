@@ -2146,7 +2146,7 @@ GameObject:
   - component: {fileID: 737851526}
   - component: {fileID: 737851529}
   m_Layer: 0
-  m_Name: Kancil
+  m_Name: Mael
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2165,9 +2165,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   communication: 0
-  characterName: Kancil
-  talkToNode: Kancil
-  scriptToLoad: {fileID: 2480198943629176163, guid: 7b092349e2b36b64f8a22289622bb1ef, type: 3}
+  characterName: Mael
+  talkToNode: Mael
+  scriptToLoad: {fileID: 2480198943629176163, guid: a9d837da5d45b7b47a0920af9bc5566c, type: 3}
 --- !u!212 &737851527
 SpriteRenderer:
   m_ObjectHideFlags: 0

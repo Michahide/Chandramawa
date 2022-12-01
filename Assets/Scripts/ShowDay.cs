@@ -5,11 +5,19 @@ using UnityEngine.UI;
 
 public class ShowDay : MonoBehaviour
 {
+    [SerializeField] private float begin;
+
     void Start()
     {
-        StartCoroutine(ShowAndHide(3));
+        StartCoroutine(Show(begin));
     }
-    IEnumerator ShowAndHide(float delay)
+    IEnumerator Show(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        this.gameObject.SetActive(false);
+    }
+    
+    IEnumerator Hide(float delay)
     {
         yield return new WaitForSeconds(delay);
         this.gameObject.SetActive(false);

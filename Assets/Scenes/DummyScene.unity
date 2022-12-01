@@ -2144,6 +2144,7 @@ GameObject:
   - component: {fileID: 737851527}
   - component: {fileID: 737851526}
   - component: {fileID: 737851529}
+  - component: {fileID: 737851530}
   m_Layer: 0
   m_Name: Kancil
   m_TagString: Untagged
@@ -2251,6 +2252,18 @@ MonoBehaviour:
   diaryImage: {fileID: 1996875274}
   textDiaryParent: {fileID: 1185030403}
   diaryWords: Baru saja aku bertemu dengan si Ucok.
+--- !u!114 &737851530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737851525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55ff5a84abe314d941fad95a0b25e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &805940790
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,6 @@ public class DialogueControls : MonoBehaviour
     private int optionSize;
     private int currentOption;
     
-    [SerializeField] private DiarySystem diarySys;
     public NPC npcClass;
     private bool isOptionDisplayed;
 
@@ -81,8 +80,13 @@ public class DialogueControls : MonoBehaviour
             if (npcClass.communication < 1)
             {
                 npcClass.communication += 1;
+                dialogueUI.MarkLineComplete();
             }
-            dialogueUI.MarkLineComplete();
+            else if(npcClass = null)
+            {
+                dialogueUI.MarkLineComplete();
+            }
+            
         }
     }
 

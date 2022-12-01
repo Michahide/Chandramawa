@@ -1,7 +1,7 @@
 title: Mael
 tags: 
 colorID: 0
-position: 435,-343
+position: 583,231
 ---
 Mael: Eh, Chandra?
 
@@ -9,42 +9,40 @@ Player: Mael? Kamu sedang keluar rumah?
 
 Mael: Aku sedang menghirup udara segar
 
-
 Player: Tidak bekerja kah kamu?
 
-Mael: Tidak sih, santai aja. Biasalah, karena aku sering...
-Mael: bekerja shift malam, rasanya aku ingin menikmati...
-Mael: Pagi yang cerah seperti ini.
+Mael: Tidak sih, santai aja.
+Mael: Biasalah, aku sering bekerja shift malam,
+Mael: rasanya aku ingin menikmati pagi yang cerah..
 Mael: Kamu sendiri gimana? Tidak berangkat kerja?
 
-Player: Hmm... Sejujurnya, aku terkena PHK
+Player: Aku belum lama ini di PHK.
 
-Mael: Sorry, ku tidak tahu.
+Mael:Sorry, ku tidak tau.
 Mael: Kamu sudah dapat pekerjaan baru kah?
 
-Player: Belum, rasanya... ku sudah malas bekerja.
+Player: Belum, rasanya ku sudah malas bekerja.
 
 Mael: Mengapa?
 
-Player: .....
+Player: ....
 
 Mael: Jangan bersikap seperti itu, Chandra.
-Mael: Kamu haus tetap semangat!
-Mael: Ingat, masih banyak yang bisa kita jalani...
-Mael: dalam hidup ini.
+Mael: Kamu harus tetap semangat!
+Mael: Ingat, masih banyak yang..
+Mael:  bisa kita jalani dalam hidup ini.
 
-Player: Iyaa
+Player: Iya
 
 Mael: Bagaimana kalau kamu mencari pekerjaan besok?
-Mael: Mungkin kamu bisa ke perpustakaan untuk...
-Mael: mencari koran-koran dan mencari lowongan.
+Mael: Mungkin kamu bisa ke perpustakaan..
+Mael: untuk mencari koran-koran dan mencari lowongan
 
 Player: Ide yang bagus, terima kasih Mael.
 
 Mael: Sama-sama, oh iya, ku harus pergi dulu...
-Mael: karena masih ada urusan.
-Mael: Kalau begitu, aku pamit ya...
-Mael: sampai jumpa Chandra!
+Mael: karena masih ada urusan. 
+Mael: Kalau begitu, aku pamit ya, Bye Chandra!
 
-Player: Ok, sampai jumpa el.
+Player: Ok, Bye
 ===

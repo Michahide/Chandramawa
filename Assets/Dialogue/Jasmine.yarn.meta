@@ -1,0 +1,50 @@
+fileFormatVersion: 2
+guid: ef9fefc96fc8a9648827c2bf4c7da7fd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Jasmine-Jasmine-0
+  - Jasmine-Jasmine-1
+  - Jasmine-Jasmine-2
+  - Jasmine-Jasmine-3
+  - Jasmine-Jasmine-4
+  - Jasmine-Jasmine-5
+  - Jasmine-Jasmine-6
+  - Jasmine-Jasmine-7
+  - Jasmine-Jasmine-8
+  - Jasmine-Jasmine-9
+  - Jasmine-Jasmine-10
+  - Jasmine-Jasmine-11
+  - Jasmine-Jasmine-12
+  - Jasmine-Jasmine-13
+  - Jasmine-Jasmine-14
+  - Jasmine-Jasmine-15
+  - Jasmine-Jasmine-16
+  - Jasmine-Jasmine-17
+  - Jasmine-Jasmine-18
+  - Jasmine-Jasmine-19
+  - Jasmine-Jasmine-20
+  - Jasmine-Jasmine-21
+  - Jasmine-Jasmine-22
+  - Jasmine-Jasmine-23
+  - Jasmine-Jasmine-24
+  - Jasmine-Jasmine-25
+  - Jasmine-Jasmine-26
+  - Jasmine-Jasmine-27
+  - Jasmine-Jasmine-28
+  - Jasmine-Jasmine-29
+  - Jasmine-Jasmine-30
+  - Jasmine-Jasmine-31
+  - Jasmine-Jasmine-32
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

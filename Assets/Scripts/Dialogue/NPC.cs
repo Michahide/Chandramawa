@@ -5,9 +5,7 @@ using UnityEngine;
 public class NPC : MonoBehaviour
 {
     public int communication = 0;
-    
     public string characterName = "";
-
     public string talkToNode = "";
 
     [Header("Optional")]
@@ -21,4 +19,5 @@ public class NPC : MonoBehaviour
             dialogueRunner.Add(scriptToLoad);
         }
     }
+
 }

@@ -8,6 +8,9 @@ public class Button : MonoBehaviour
     public void Play() {
         SceneManager.LoadScene("DummyScene");
     }
+    public void ToMainMenu(){
+       SceneManager.LoadScene("MainMenu");
+    }
     public void Exit() {
         Application.Quit();
     }

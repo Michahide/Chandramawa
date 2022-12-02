@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class dummyTimeManager : MonoBehaviour
 {
@@ -16,13 +17,32 @@ public class dummyTimeManager : MonoBehaviour
 
     void Start()
     {
+        
         TimerOn = true;
         DontDestroyOnLoad(gameObject);
     }
     private void Update()
     {
-        Timer = GameObject.Find("TimerTxt").GetComponent<TMP_Text>();
+        FindText();
+        CountDown();
+    }
+    public void UpdateTimer(float currentTime)
+    {
+        currentTime += 1;
 
+        float minutes = MathF.Floor(currentTime / 60);
+        float seconds = MathF.Floor(currentTime % 60);
+
+        Timer.text = String.Format("{0:00} : {1:00}", minutes, seconds);
+    }
+
+    public void FindText()
+    {
+            Timer = GameObject.Find("TimerTxt").GetComponent<TMP_Text>();
+    }
+
+    public void CountDown()
+    {
         if (TimerOn)
         {
             if (TimeLeft > 0)
@@ -50,15 +70,5 @@ public class dummyTimeManager : MonoBehaviour
                 TimerOn = false;
             }
         }
-
-    }
-    public void UpdateTimer(float currentTime)
-    {
-        currentTime += 1;
-
-        float minutes = MathF.Floor(currentTime / 60);
-        float seconds = MathF.Floor(currentTime % 60);
-
-        Timer.text = String.Format("{0:00} : {1:00}", minutes, seconds);
     }
 }

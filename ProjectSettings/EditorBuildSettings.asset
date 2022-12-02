@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CutScenes/LoadingProgress.unity
     guid: 6d9f4118ebf3b5c469b6d9ef0851d644
   - enabled: 1
+    path: Assets/Scenes/CutScenes/Start.unity
+    guid: a3e7989e1025dd0488b1111fef45e706
+  - enabled: 1
     path: Assets/Scenes/Day1/Chandra'sHouse.unity
     guid: a01fba506b57e8b4ab680bcffff5f072
   - enabled: 1

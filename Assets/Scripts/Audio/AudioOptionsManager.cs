@@ -16,6 +16,9 @@ public class AudioOptionsManager : MonoBehaviour
         musicSliderText.text = ((int)(value * 100)).ToString();
         AudioManager.Instance.UpdateMixerVolume();
     }
+    void Update(){
+        musicSliderText = GameObject.Find("MusicValue").GetComponent<TextMeshProUGUI>();
+    }
 
     // public void OnSoundEffectsSliderValueChange(float value)
     // {

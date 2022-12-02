@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator animator = null;
     [SerializeField] Transform puppet = null;
     [SerializeField] GameObject Diary;
+    [SerializeField] GameObject optionInGame;
     //[SerializeField] PlayerAudio audioPlayer = null;
 
     [Header("Movement")]
@@ -32,6 +33,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float groundedGravityScale = 1.0f;
     [SerializeField] bool resetSpeedOnLand = false;
     [SerializeField] public Animator anim;
+    [SerializeField] public Animator animOption;
     public bool isGroundHard;
 
     private Rigidbody2D controllerRigidbody;
@@ -79,27 +81,30 @@ public class PlayerController : MonoBehaviour
 
 
         // Horizontal movement
-        if(Diary.activeInHierarchy){}
+        if(Diary.activeInHierarchy){DiarySummon();}
+
+        else if (optionInGame.activeInHierarchy)
+        {
+            OptionInGameMenu();
+        }
+
         else{
-        float moveHorizontal = Input.GetAxis("Horizontal");
+            float moveHorizontal = Input.GetAxis("Horizontal");
 
-        movementInput = new Vector2(moveHorizontal, 0);
-        if (!isJumping && Input.GetKeyDown(KeyCode.Space))
-            jumpInput = true;
+            movementInput = new Vector2(moveHorizontal, 0);
+            if (!isJumping && Input.GetKeyDown(KeyCode.Space))
+                jumpInput = true;
+            
+            DiarySummon();
+            
+                
+                OptionInGameMenu();
 
+            
         }
         // Jumping input
 
         //diary
-        if (Input.GetKeyDown(KeyCode.Tab) && !Diary.activeInHierarchy)
-        {
-            Diary.SetActive(true);
-        }
-        else if (Input.GetKeyDown(KeyCode.Tab) && Diary.activeInHierarchy)
-        {
-            StartCoroutine(DiaryClose());
-
-        }
 
     }
 
@@ -237,9 +242,38 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator DiaryClose(){
         anim.SetTrigger("DiaryClose");
-        yield return new WaitForSeconds(0.6f);
+        yield return new WaitForSeconds(0.8f);
         
         Diary.SetActive(false);
 
+    }
+    IEnumerator OptionClose(){
+        animOption.SetTrigger("DiaryClose");
+        yield return new WaitForSeconds(0.8f);
+        
+        optionInGame.SetActive(false);
+
+    }
+
+    public void OptionInGameMenu(){
+      if (Input.GetKeyDown(KeyCode.Escape) && !optionInGame.activeInHierarchy)
+        {
+            optionInGame.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && optionInGame.activeInHierarchy)
+        {
+            StartCoroutine(OptionClose());
+
+        }  
+    }
+    public void DiarySummon(){
+        if (Input.GetKeyDown(KeyCode.Tab) && !Diary.activeInHierarchy)
+            {
+                Diary.SetActive(true);
+            }
+            else if (Input.GetKeyDown(KeyCode.Tab) && Diary.activeInHierarchy){
+
+               StartCoroutine(DiaryClose());
+            }
     }
 }

@@ -708,7 +708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: {fileID: 2074342412}
   objectName: 
-  NPC: {fileID: 1251691953}
+  NPC: {fileID: 0}
   npc: 0
 --- !u!1 &493408859
 GameObject:
@@ -1054,7 +1054,7 @@ Transform:
   m_Children:
   - {fileID: 1050593514}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &630989405
 GameObject:
@@ -1908,95 +1908,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9207512b0f79caa44bda477676c1c36e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &997795993
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1492483052028039889, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: talkToNode
-      value: Jendela
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039889, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: scriptToLoad
-      value: 
-      objectReference: {fileID: 2480198943629176163, guid: 65068312ac0f3e345b815efdcb841a76, type: 3}
-    - target: {fileID: 1492483052028039889, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: characterName
-      value: Jendela
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.4984727
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.07159974
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492483052028039917, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_Name
-      value: Jendela
-      objectReference: {fileID: 0}
-    - target: {fileID: 7018731446688387931, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: sceneAction
-      value: 
-      objectReference: {fileID: 1050593513}
-    - target: {fileID: 8627081487165534441, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_Size.x
-      value: 3.2163837
-      objectReference: {fileID: 0}
-    - target: {fileID: 8627081487165534441, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_Size.y
-      value: 6.4551625
-      objectReference: {fileID: 0}
-    - target: {fileID: 8627081487165534441, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_Offset.x
-      value: 1.0429007
-      objectReference: {fileID: 0}
-    - target: {fileID: 8627081487165534441, guid: e643dee500a6bff47a59caf743023228, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.24720311
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e643dee500a6bff47a59caf743023228, type: 3}
 --- !u!1 &1012229066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2662,11 +2573,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242243617}
   m_CullTransparentMesh: 1
---- !u!1 &1251691953 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1492483052028039917, guid: e643dee500a6bff47a59caf743023228, type: 3}
-  m_PrefabInstance: {fileID: 997795993}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1263672887
 GameObject:
   m_ObjectHideFlags: 0
@@ -3193,7 +3099,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2634163518413978202, guid: 6b22c8857bfe5b048956b2ed540d1a1b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7167562399511089569, guid: 6b22c8857bfe5b048956b2ed540d1a1b, type: 3}
       propertyPath: m_Name
@@ -4099,7 +4005,7 @@ PrefabInstance:
       objectReference: {fileID: 1786319225}
     - target: {fileID: 8158552007003432693, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432693, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5393,7 +5299,7 @@ RectTransform:
   - {fileID: 5869546236198105196}
   - {fileID: 1786319226}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

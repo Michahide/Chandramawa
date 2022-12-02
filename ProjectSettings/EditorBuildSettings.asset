@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/CutScenes/Start.unity
     guid: a3e7989e1025dd0488b1111fef45e706
   - enabled: 1
+    path: Assets/Scenes/CutScenes/ChangeDay.unity
+    guid: a8f53bb7cb551d545b8c1ba4b5214559
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Death.unity
+    guid: 517cd1b115d74454192533eb4f00a6a5
+  - enabled: 1
     path: Assets/Scenes/Day1/Chandra'sHouse.unity
     guid: a01fba506b57e8b4ab680bcffff5f072
   - enabled: 1
@@ -30,6 +36,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Day1/backtoLeafAlley.unity
     guid: da808b95371140a41980f00157df21e6
   - enabled: 1
-    path: Assets/Scenes/CutScenes/Death.unity
-    guid: 517cd1b115d74454192533eb4f00a6a5
+    path: Assets/Scenes/Day2/Chandra'sHouse1.unity
+    guid: 9964d44645356174583f1de3ea7a6fb1
   m_configObjects: {}

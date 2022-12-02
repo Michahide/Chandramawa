@@ -7,8 +7,6 @@ public class GoSleep : MonoBehaviour
     [SerializeField] TimeManager timeManager;
     [SerializeField] private float Sleep = 0.5f;
 
-    public string sceneName;
-
 
     private void Update()
     {

@@ -1288,7 +1288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1492483052028039891, guid: e643dee500a6bff47a59caf743023228, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4640,7 +4640,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1737164738
 MonoBehaviour:
@@ -4655,7 +4655,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimerOn: 0
-  TimeLeft: 50
+  communicationManager: {fileID: 1354687446}
+  npc: 0
+  NextDayScene: Chandra'sHouse
+  TimeLeft: 5
 --- !u!1 &1746315747
 GameObject:
   m_ObjectHideFlags: 3

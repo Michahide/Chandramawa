@@ -9,22 +9,24 @@ using UnityEngine.SceneManagement;
 public class dummyTimeManager : MonoBehaviour
 {
     [SerializeField] private bool TimerOn = false;
+    [SerializeField] private CommunicationManager communicationManager;
+    [SerializeField] private int npc;
+    [SerializeField] private string NextDayScene;
 
     private TMP_Text Timer;
-    private int npc;
     public float TimeLeft;
     private string sceneName;
 
     void Start()
     {
-        
-        TimerOn = true;
         DontDestroyOnLoad(gameObject);
+        TimerOn = true;    
     }
     private void Update()
     {
         FindText();
         CountDown();
+        npc = communicationManager.GetComponent<CommunicationManager>().Coms;
     }
     public void UpdateTimer(float currentTime)
     {
@@ -53,16 +55,17 @@ public class dummyTimeManager : MonoBehaviour
 
             else if (TimeLeft == 0 || TimeLeft < 0)
             {
-
+                
                 if (npc == 0)
                 {
                     Debug.Log("death");
                     sceneName = "Death";
-                    SceneLoaderManager.ProgressLoad(sceneName);
+                    
                 }
 
                 else
                 {
+                    SceneLoaderManager.ProgressLoad(NextDayScene);
                     Debug.Log("You survived");
                 }
 

@@ -49,11 +49,11 @@ public class TimeManager : MonoBehaviour
             
             if (this.gameObject == null){
                
-            Destroy(this);
+            Destroy(this.gameObject);
             }
             else{
                
-                Destroy(this);
+                Destroy(this.gameObject);
             }
         }
 

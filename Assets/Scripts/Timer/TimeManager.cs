@@ -15,20 +15,21 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private int npc;
     [SerializeField] private string NextDayScene;
 
-    private bool setTime = true;
+    public bool setTime = true;
     public TMP_Text Timer;
     public float TimeLeft;
     private string sceneName;
 
     private void Awake()
     {
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        
         TimerOn = true;
     }
 
     void Start()
     {
         DontDestroyOnLoad(gameObject); 
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
     private void Update()
     {
@@ -36,12 +37,24 @@ public class TimeManager : MonoBehaviour
         CountDown();
         npc = FindObjectOfType<CommunicationManager>().Coms;
     }
+     void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 
     void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     {
         if (scene.name == "HappyEnding" || scene.name == "ChangeDay" || scene.name == "Death")
         {
-            Destroy(this.gameObject);
+            
+            if (this.gameObject == null){
+               
+            Destroy(this);
+            }
+            else{
+               
+                Destroy(this);
+            }
         }
 
         else if(scene.name == "Chandra'sHouse1" || scene.name == "Chandra'sHouse2")

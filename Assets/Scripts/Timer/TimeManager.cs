@@ -6,6 +6,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using System.ComponentModel.Design;
+using Unity.VisualScripting;
 
 public class TimeManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private int npc;
     [SerializeField] private string NextDayScene;
 
+    private bool setTime = true;
     public TMP_Text Timer;
     public float TimeLeft;
     private string sceneName;
@@ -21,12 +23,12 @@ public class TimeManager : MonoBehaviour
     private void Awake()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+        TimerOn = true;
     }
 
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
-        TimerOn = true;    
+        DontDestroyOnLoad(gameObject); 
     }
     private void Update()
     {
@@ -37,14 +39,19 @@ public class TimeManager : MonoBehaviour
 
     void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     {
-        if (scene.name == "MainMenu" || scene.name == "HappyEnding" || scene.name == "ChangeDay" || scene.name == "Start")
+        if (scene.name == "HappyEnding" || scene.name == "ChangeDay" || scene.name == "Death")
         {
-            this.gameObject.SetActive(false);
-            Debug.Log("I am inside the if statement");
+            Destroy(this.gameObject);
         }
-        else
+
+        else if(scene.name == "Chandra'sHouse1" || scene.name == "Chandra'sHouse2")
         {
-            this.gameObject.SetActive(true);
+            
+            if (setTime)
+            {
+                TimeLeft = 90;
+                setTime = false;
+            }
         }
     }
 

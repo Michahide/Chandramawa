@@ -12,7 +12,7 @@ public class DialogueControls : MonoBehaviour
 
     private int optionSize;
     private int currentOption;
-    public int npc;
+    public int npc = 0;
 
     private bool isOptionDisplayed;
 

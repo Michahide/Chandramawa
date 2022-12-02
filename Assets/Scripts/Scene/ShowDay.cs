@@ -9,7 +9,7 @@ public class ShowDay : MonoBehaviour
     [SerializeField] private float close = 0;
     [SerializeField] GameObject panel;
 
-    void Start()
+    void Awake()
     {
         StartCoroutine(Show(begin));
         StartCoroutine(Hide(close));

@@ -1178,39 +1178,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!4 &276588522 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7933024768985001471, guid: 0ff0be5e051a4a54d95092ca320e62e1, type: 3}
-  m_PrefabInstance: {fileID: 7933024768717326871}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &276588523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276588517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b10857b868e447045a5a8e745be4479d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 276588519}
-  puppet: {fileID: 276588522}
-  acceleration: 0
-  maxSpeed: 0
-  jumpForce: 0
-  minFlipSpeed: 0.1
-  jumpGravityScale: 1
-  fallGravityScale: 1
-  groundedGravityScale: 1
-  resetSpeedOnLand: 0
-  anim: {fileID: 0}
-  animOption: {fileID: 0}
-  isGroundHard: 0
-  groundType: 0
-  isJumping: 0
-  animatorTalkBool: 0
 --- !u!1 &344316364
 GameObject:
   m_ObjectHideFlags: 0

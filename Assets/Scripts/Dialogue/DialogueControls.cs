@@ -7,7 +7,6 @@ public class DialogueControls : MonoBehaviour
     [SerializeField] private string objectName;
     [SerializeField] private GameObject NPC;
     [SerializeField] Animator npcAnimator;
-    NPCController nPCController;
 
     private DialogueUI dialogueUI = null;
     private TMPro.TMP_Text[] options;
@@ -88,9 +87,6 @@ public class DialogueControls : MonoBehaviour
         {
             npc += 1; 
             dialogueUI.MarkLineComplete();
-
-            // nPCController.animator.SetBool(nPCController.animatorTalkBool, true);
-            // nPCController.animator.SetBool(nPCController.animatorTalkBool, true);
 
             if(npcAnimator!=null && !animating)
             {

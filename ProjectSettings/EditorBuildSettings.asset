@@ -36,6 +36,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Day1/backtoLeafAlley.unity
     guid: da808b95371140a41980f00157df21e6
   - enabled: 1
+    path: Assets/Scenes/Day2/LeafAlley1.unity
+    guid: cda8acd9db8cd2f4a81f15be5e2b48d0
+  - enabled: 1
     path: Assets/Scenes/Day2/Chandra'sHouse1.unity
-    guid: 9964d44645356174583f1de3ea7a6fb1
+    guid: 2cdf0b3bc1ad48441af1bd94cc77edba
+  - enabled: 1
+    path: Assets/Scenes/Day2/backtoLeafAlley1.unity
+    guid: bb59d1aa7316f0d439a0761fed8e8ce8
+  - enabled: 1
+    path: Assets/Scenes/Day2/backtoChandra'sHouse1.unity
+    guid: 71f266ea9d2832d45a1d1b469d83f834
+  - enabled: 1
+    path: Assets/Scenes/Day2/AutumnTown1.unity
+    guid: 2991c5b3f5c729a4d82df28cc4b49a92
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

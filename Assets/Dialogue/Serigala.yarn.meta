@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: aa0d317a6a74a0b41bd9f8fd4156f049
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Serigala-Serigala-0
+  - Serigala-Serigala-1
+  - Serigala-Serigala-2
+  - Serigala-Serigala-3
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: aa0d317a6a74a0b41bd9f8fd4156f049, type: 3}
+  localizations: []

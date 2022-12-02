@@ -1,0 +1,1731 @@
+fileFormatVersion: 2
+guid: 5c0ae0439e5364e4eadde9cfbe464a9f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MaelTallk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5dc87c0565a274699f96aff8f89258
+      internalID: 248906673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_1
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b02c788bc8b104199c20ec818149c5
+      internalID: -908333593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_2
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c879f679730b1bb44966a2cdb1ede4b6
+      internalID: 195986788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_3
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9bf086005411641beb575a904649a5
+      internalID: 806263595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_4
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b683bca0d96e524ea79dea63027a090
+      internalID: -1236838256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_5
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5bdc49e05f16b428fb75cf17db65fe
+      internalID: 235966737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_6
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a972e965162ad47b946b17ebd2f28e
+      internalID: 829668096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_7
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f707b4bfe6ae9b49b3f075fba05907b
+      internalID: -1247722348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_8
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099d237659ca5bb4ea21a57d68f10544
+      internalID: -791705499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_9
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcf12a2d7a44fc4bae0f5bb07fffbab
+      internalID: 1630225588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_10
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644c4c9648f10b749b1188099f2139c3
+      internalID: 1324990598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_11
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 2466
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61b825c2fb24ef4bab8871553c7d354
+      internalID: 1857230603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebe8860720fb6344abb2acf2785596d
+      internalID: 669315703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_13
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01d7713f1d662c42be0c81f34fdd736
+      internalID: 1338919250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_14
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80706a1048dddc47b4bc781650e21ee
+      internalID: 312359212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_15
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386faecbaace703478711d774efb471c
+      internalID: -1407599438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_16
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebe58f8d4dba304e98d78584bf2b622
+      internalID: -1765846254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_17
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71f71221e7631649b4e06e86966f47a
+      internalID: 288878437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_18
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d89ea564e4bf90458888598fbc5b398
+      internalID: 1412341714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_19
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f16fed6a510ed645b9a431add2f9f24
+      internalID: -309963819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_20
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13168c133286325448b9d85b91c10945
+      internalID: 857776067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_21
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2e5f6ff6c4d5945ae3c7d697f817ee
+      internalID: -1187089010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_22
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd95df841be624c4285c482a018e2b6f
+      internalID: -79369486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_23
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b59cd62f668c2b47abbbd1db7630ac8
+      internalID: -610387558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7374954a565b14898b5d9580da66ab
+      internalID: 1648392283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8080fc26577d4b84e9c81fd3c5e28ab5
+      internalID: -537936665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_26
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28375da39cf7a94eba12054beafe67b
+      internalID: 108824157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_27
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199c0da1f108cba4ca29720061b530c9
+      internalID: 201376488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_28
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2366e24f9ec8a9419f6e38ccf79025f
+      internalID: 1035306821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_29
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f39dfcf22086b40a0a2acb3185b965
+      internalID: -649089010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_30
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ece3e06c49854a4c9bdb55e68e98082
+      internalID: -473943677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_31
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b30804baf231c84b9c06722ae680ef1
+      internalID: -151263149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_32
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86240a1c4c1ebd4498719bb2d2e133db
+      internalID: -1395659460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_33
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cb7da3a2aa41741bc3a71ccf802692
+      internalID: -1531261086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_34
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67372c0f32c19aa468543b13ed30a3ec
+      internalID: 152296557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_35
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f48da5fa521a546bd6bc1df2cbf612
+      internalID: 2121104611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de735b300e010f4488811f090c2e58ae
+      internalID: 1502404345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_37
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c86eadefe3e54c4681688d31f63b1ec
+      internalID: -1284038626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_38
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dce85b0beefedb49b139fc9005cc9ca
+      internalID: -507314415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_39
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b5bee9e6877a745b8b93333cb82657
+      internalID: -1602463168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_40
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108302670ee15bb45be240dbfeebc804
+      internalID: -1521403037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_41
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8aa2937c2120c54ca72a1c11742a887
+      internalID: -933162601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_42
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1300fc6d19e6f9141af865f2fdb9b6aa
+      internalID: 1944660582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_43
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b91d53fb15fae49b995aa5dbd7fd0a
+      internalID: 1846720424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_44
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67be5c3f65d326b4886f76c44c526fc1
+      internalID: 829188036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_45
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd65ed92d5c667f41a2d2c2c40c5088e
+      internalID: -1531272401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_46
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c11360a8cbdf95428ef02facf3f33e2
+      internalID: -680776243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_47
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905b825f331d6844b34cfd63745f026
+      internalID: 1872641368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a963fb8eeee1a4f80b86a49fc8b1e1
+      internalID: 763664757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_49
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500d62edb710c764e83ee85e7e21d2f2
+      internalID: 416132395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_50
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f558648bf326bdf40b591de29cbd5909
+      internalID: 563558293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_51
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3420b94a3369fab4383bf4b33352b8ad
+      internalID: 37129000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_52
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db3d20794e6dbf43b0d81d5f3708fdc
+      internalID: -517142905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_53
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c2f94dbf3a30d4eb8ad424e69f5d91
+      internalID: 1191266130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_54
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258e2d18c3913ea48bbf6ca664a4e60a
+      internalID: -781700568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_55
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0c97d2081614948a82e03a8c417086
+      internalID: 294113801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_56
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66c4d84e135c3845a534577e3abc9fc
+      internalID: -338542842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_57
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2887cd158bafb49a2b11e7820eae5c
+      internalID: -1776294067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_58
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd1160b41d131e4ba453f924fc4eb2d
+      internalID: 1867315768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_59
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adac79b2aa91d4d409a5b9c346c86170
+      internalID: -887247284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7199577f2f64c41aa78283fb8646cf
+      internalID: -843480219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_61
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4944e1cfb398ff647bfe46ce4b9b3fdc
+      internalID: -890106368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_62
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdea8321a6f1ce41b39190d1bbaa90b
+      internalID: -88123187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_63
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5186d4fe288ccd64abb96fa374dc1b60
+      internalID: 1662215854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_64
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd2f504150bbcd46af2620ffeb24ad8
+      internalID: -911603030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_65
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4027fb5930c553848a716b561e2702f6
+      internalID: -1861419802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_66
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d461ec508e74cb469c5f0e583dcba33
+      internalID: -1677837528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_67
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e8609213e0f7e4f9b4a1514103dfef
+      internalID: -1712837095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_68
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2930d22f0beb9346b34c340333cab41
+      internalID: 1680867492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_69
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cebe1a2b6b31346b40a6ccc094aff7
+      internalID: -1710293885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_70
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc09746af2ca83b42ade39703493f514
+      internalID: 1345370521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelTallk_71
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c18e761e411224aaf3e0da455cfe1e
+      internalID: -1530432744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MaelTallk_8: -791705499
+      MaelTallk_6: 829668096
+      MaelTallk_46: -680776243
+      MaelTallk_28: 1035306821
+      MaelTallk_26: 108824157
+      MaelTallk_45: -1531272401
+      MaelTallk_47: 1872641368
+      MaelTallk_65: -1861419802
+      MaelTallk_67: -1712837095
+      MaelTallk_51: 37129000
+      MaelTallk_55: 294113801
+      MaelTallk_52: -517142905
+      MaelTallk_58: 1867315768
+      MaelTallk_64: -911603030
+      MaelTallk_2: 195986788
+      MaelTallk_43: 1846720424
+      MaelTallk_70: 1345370521
+      MaelTallk_59: -887247284
+      MaelTallk_30: -473943677
+      MaelTallk_3: 806263595
+      MaelTallk_29: -649089010
+      MaelTallk_33: -1531261086
+      MaelTallk_71: -1530432744
+      MaelTallk_69: -1710293885
+      MaelTallk_34: 152296557
+      MaelTallk_27: 201376488
+      MaelTallk_35: 2121104611
+      MaelTallk_38: -507314415
+      MaelTallk_4: -1236838256
+      MaelTallk_63: 1662215854
+      MaelTallk_23: -610387558
+      MaelTallk_7: -1247722348
+      MaelTallk_56: -338542842
+      MaelTallk_53: 1191266130
+      MaelTallk_13: 1338919250
+      MaelTallk_32: -1395659460
+      MaelTallk_19: -309963819
+      MaelTallk_41: -933162601
+      MaelTallk_62: -88123187
+      MaelTallk_10: 1324990598
+      MaelTallk_57: -1776294067
+      MaelTallk_17: 288878437
+      MaelTallk_15: -1407599438
+      MaelTallk_68: 1680867492
+      MaelTallk_44: 829188036
+      MaelTallk_22: -79369486
+      MaelTallk_42: 1944660582
+      MaelTallk_1: -908333593
+      MaelTallk_16: -1765846254
+      MaelTallk_9: 1630225588
+      MaelTallk_31: -151263149
+      MaelTallk_39: -1602463168
+      MaelTallk_50: 563558293
+      MaelTallk_11: 1857230603
+      MaelTallk_54: -781700568
+      MaelTallk_12: 669315703
+      MaelTallk_37: -1284038626
+      MaelTallk_66: -1677837528
+      MaelTallk_25: -537936665
+      MaelTallk_18: 1412341714
+      MaelTallk_49: 416132395
+      MaelTallk_20: 857776067
+      MaelTallk_14: 312359212
+      MaelTallk_48: 763664757
+      MaelTallk_24: 1648392283
+      MaelTallk_21: -1187089010
+      MaelTallk_61: -890106368
+      MaelTallk_40: -1521403037
+      MaelTallk_60: -843480219
+      MaelTallk_36: 1502404345
+      MaelTallk_5: 235966737
+      MaelTallk_0: 248906673
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

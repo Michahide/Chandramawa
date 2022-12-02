@@ -6,6 +6,8 @@ public class DialogueControls : MonoBehaviour
     [SerializeField] private TMPro.TMP_Text dialogue = null;
     [SerializeField] private string objectName;
     [SerializeField] private GameObject NPC;
+    [SerializeField] Animator npcAnimator;
+    NPCController nPCController;
 
     private DialogueUI dialogueUI = null;
     private TMPro.TMP_Text[] options;
@@ -13,6 +15,8 @@ public class DialogueControls : MonoBehaviour
     private int optionSize;
     private int currentOption;
     public int npc = 0;
+
+    private bool animating;
 
     private bool isOptionDisplayed;
 
@@ -34,6 +38,8 @@ public class DialogueControls : MonoBehaviour
         {
             options[i] = dialogueUI.optionButtons[i].GetComponentInChildren<TMPro.TMP_Text>();
         }
+
+        npcAnimator = NPC.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -83,6 +89,21 @@ public class DialogueControls : MonoBehaviour
             npc += 1; 
             dialogueUI.MarkLineComplete();
 
+            // nPCController.animator.SetBool(nPCController.animatorTalkBool, true);
+            // nPCController.animator.SetBool(nPCController.animatorTalkBool, true);
+
+            if(npcAnimator!=null && !animating)
+            {
+                npcAnimator.SetTrigger("Talk");
+                animating = true;
+
+            }
+
+            else if(npcAnimator!=null && animating)
+            {
+                    npcAnimator.ResetTrigger("Talk");
+                    animating = false;
+            }
         }
     }
 

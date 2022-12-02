@@ -1,0 +1,1247 @@
+fileFormatVersion: 2
+guid: 10e1a89c09d209445ab5052d5421953d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MaelIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3b799a2033db1439b203df48e5d7a2
+      internalID: -1813875441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_1
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9d116d20bae4c4f99895d3ca114f31
+      internalID: -333268623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_2
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49e16831725a714092f85325bd0a653
+      internalID: -508129653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_3
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2cb9e3dd4928f41ba13593c0c724ef
+      internalID: -717724184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_4
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d46ae8652b9b04599cbd13da0fdebf
+      internalID: 1311463072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_5
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83a61df0d69b8849aed75b758a43f15
+      internalID: -1158394846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_6
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0324699ca63fa49b1ddfd71126631b
+      internalID: -1878680837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_7
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c933d6434b55d3f4f979e545fc00bf02
+      internalID: 1371784436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_8
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd06651fc92f714428d33235b30c7b80
+      internalID: -475402180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_9
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a97f733eec032243b81e5bc4c2c6679
+      internalID: -136492919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_10
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7eb741ff22f7d499485ae2c09ec068
+      internalID: -496154484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_11
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 1973
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63c36d110682144e85718af3580414e
+      internalID: -1800877833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c67abcf17c24a4285712371825b776
+      internalID: 91517283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_13
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac2c962a12595b45bd37ab3796453d3
+      internalID: -371677556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_14
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25884063ed81da44db9440fab1e1ced6
+      internalID: 1952004766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_15
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612bf7b8081f37c42af8f55ba951f1df
+      internalID: 1666662094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_16
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff16077ecf1f7024192bab4db901fcf2
+      internalID: 657870769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_17
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c25c53db6e0d149b28da9be330b4fb
+      internalID: -561608967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_18
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d78774477ba0f45bdd9feaa6d84154
+      internalID: 1105009671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_19
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77074deec85f33499a9dd61d55b83c8
+      internalID: -44748195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_20
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660f24f47efab5741b6528ba1ca5b650
+      internalID: -1527641355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_21
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4784c0505850f4f80631590925eb80
+      internalID: -863511448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_22
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac1f655af43041488bc808e8c875f89
+      internalID: 1345604230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_23
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 1480
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811e6aab9be7db34caf910a9cd5b00bf
+      internalID: 1196371313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e0867c2d615574785fd7ce2004143c
+      internalID: 799873452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f054afc769007b439c1dcca90219fbb
+      internalID: -2136358127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_26
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d70c77210ebff4ca4446487fa1b7af
+      internalID: 48433913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_27
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70de9cc7cc05e6b4a8880cfb9d08fc97
+      internalID: -776155660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_28
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e831b5b73ed5d348b783c6acc6ce4d8
+      internalID: -45389053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_29
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964fd5de72921374fb044c3d75e32bf9
+      internalID: -1591807066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_30
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cdd63b2a3af564cb3a74db4c3dddcb
+      internalID: 1865939642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_31
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af02f9c0ff58cbd48b2e3181fa6642b6
+      internalID: -846693966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_32
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765830be366f78c4399fbbb63e159763
+      internalID: 381478668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_33
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda5917b28c8e934aae3ff4c067d8413
+      internalID: -1983689428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_34
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d58d32fe8a1b0d41917e0c9dc368d67
+      internalID: -242388533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_35
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 987
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219de6953c8ee714585fe1842c9e6076
+      internalID: 579332882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d6993b04609a045a415c8dbc42c5af
+      internalID: -170163916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_37
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8d61c526d41da4288832fc1588a203
+      internalID: 241757714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_38
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbca2dd2e9ed5fe48859040c03dbd76d
+      internalID: 1491605767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_39
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0f649add5e4b34e9dda6a808f13311
+      internalID: -1835203192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_40
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972d07bb65a1028438f07efd2eb87cb8
+      internalID: -112910938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_41
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a0a16f339884246870f75497797ee5
+      internalID: 561844274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_42
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc56db51c7ca4340899ed5c29c0836a
+      internalID: -1319567605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_43
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdeef52ebae02a498091c4495e1052c
+      internalID: -654725553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_44
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b476b8bc8a867b34487fd9bc36ed4ff9
+      internalID: -270600112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_45
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cebb5e99b173b4385674eb89aeab5f
+      internalID: 141910661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_46
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4460baff086c7c8469a14a9f017e592d
+      internalID: 1442654042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_47
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 494
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0d5c38d240b95438e829c288a6c60f
+      internalID: 1025488926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea471277a65bde94c979eb2f050bd5e4
+      internalID: 1459988608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaelIdle_49
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebe648ec1e632e43bdf7f3d00d49ba1
+      internalID: -354554115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MaelIdle_10: -496154484
+      MaelIdle_17: -561608967
+      MaelIdle_1: -333268623
+      MaelIdle_45: 141910661
+      MaelIdle_31: -846693966
+      MaelIdle_11: -1800877833
+      MaelIdle_8: -475402180
+      MaelIdle_44: -270600112
+      MaelIdle_37: 241757714
+      MaelIdle_35: 579332882
+      MaelIdle_33: -1983689428
+      MaelIdle_15: 1666662094
+      MaelIdle_4: 1311463072
+      MaelIdle_28: -45389053
+      MaelIdle_6: -1878680837
+      MaelIdle_24: 799873452
+      MaelIdle_9: -136492919
+      MaelIdle_16: 657870769
+      MaelIdle_2: -508129653
+      MaelIdle_42: -1319567605
+      MaelIdle_20: -1527641355
+      MaelIdle_12: 91517283
+      MaelIdle_22: 1345604230
+      MaelIdle_34: -242388533
+      MaelIdle_38: 1491605767
+      MaelIdle_41: 561844274
+      MaelIdle_19: -44748195
+      MaelIdle_40: -112910938
+      MaelIdle_14: 1952004766
+      MaelIdle_3: -717724184
+      MaelIdle_13: -371677556
+      MaelIdle_26: 48433913
+      MaelIdle_27: -776155660
+      MaelIdle_18: 1105009671
+      MaelIdle_36: -170163916
+      MaelIdle_21: -863511448
+      MaelIdle_47: 1025488926
+      MaelIdle_0: -1813875441
+      MaelIdle_30: 1865939642
+      MaelIdle_23: 1196371313
+      MaelIdle_29: -1591807066
+      MaelIdle_5: -1158394846
+      MaelIdle_46: 1442654042
+      MaelIdle_39: -1835203192
+      MaelIdle_43: -654725553
+      MaelIdle_32: 381478668
+      MaelIdle_48: 1459988608
+      MaelIdle_7: 1371784436
+      MaelIdle_49: -354554115
+      MaelIdle_25: -2136358127
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

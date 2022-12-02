@@ -53,9 +53,13 @@ public class AudioManager : MonoBehaviour
 
      void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode) {
        if (scene.name == "Death") {
-             Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
              Debug.Log("I am inside the if statement");
        }
+        else
+        {
+            this.gameObject.SetActive(true);
+        }
     }
 
     public void Play(string clipname)

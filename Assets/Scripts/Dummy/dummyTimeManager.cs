@@ -5,6 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.ComponentModel.Design;
 
 public class dummyTimeManager : MonoBehaviour
 {
@@ -17,6 +18,11 @@ public class dummyTimeManager : MonoBehaviour
     public float TimeLeft;
     private string sceneName;
 
+    private void Awake()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
     void Start()
     {
         DontDestroyOnLoad(gameObject);
@@ -26,9 +32,23 @@ public class dummyTimeManager : MonoBehaviour
     {
         FindText();
         CountDown();
-        npc = communicationManager.GetComponent<CommunicationManager>().Coms;
+        npc = FindObjectOfType<CommunicationManager>().Coms;
     }
-    public void UpdateTimer(float currentTime)
+
+    void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+    {
+        if (scene.name == "MainMenu" || scene.name == "HappyEnding" || scene.name == "ChangeDay" || scene.name == "Start")
+        {
+            this.gameObject.SetActive(false);
+            Debug.Log("I am inside the if statement");
+        }
+        else
+        {
+            this.gameObject.SetActive(true);
+        }
+    }
+
+        public void UpdateTimer(float currentTime)
     {
         currentTime += 1;
 
@@ -60,7 +80,7 @@ public class dummyTimeManager : MonoBehaviour
                 {
                     Debug.Log("death");
                     sceneName = "Death";
-                    
+                    SceneLoaderManager.ProgressLoad(sceneName);
                 }
 
                 else

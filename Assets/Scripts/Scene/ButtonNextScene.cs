@@ -9,6 +9,12 @@ public class ButtonNextScene : MonoBehaviour
         SceneLoaderManager.ProgressLoad("Start");
         Application.Quit();
     }
+    
+    public void MainMenu()
+    {
+        SceneLoaderManager.ProgressLoad("MainMenu");
+        Application.Quit();
+    }
 
     public void exitgame()
     {

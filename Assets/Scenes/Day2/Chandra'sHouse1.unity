@@ -1255,7 +1255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4985463197768508455, guid: 8b13d87cc8c2ee34ca787fd4239b9c14, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4985463197768508455, guid: 8b13d87cc8c2ee34ca787fd4239b9c14, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2555,7 +2555,7 @@ Transform:
   - {fileID: 1263672888}
   - {fileID: 787378746}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1242243617
 GameObject:
@@ -3191,6 +3191,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2634163518413978202, guid: 6b22c8857bfe5b048956b2ed540d1a1b, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7167562399511089569, guid: 6b22c8857bfe5b048956b2ed540d1a1b, type: 3}
       propertyPath: m_Name
       value: TimeManager
@@ -4095,7 +4099,7 @@ PrefabInstance:
       objectReference: {fileID: 1786319225}
     - target: {fileID: 8158552007003432693, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432693, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5186,7 +5190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 992929ad9e2323944bad11150d897a15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9464cb2301102864b9465ed7f1e43c68, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

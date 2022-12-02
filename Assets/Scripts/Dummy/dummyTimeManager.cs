@@ -7,7 +7,6 @@ using TMPro;
 
 public class dummyTimeManager : MonoBehaviour
 {
-    [SerializeField] private string objectName;
     [SerializeField] private bool TimerOn = false;
 
     private TMP_Text Timer;

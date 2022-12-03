@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Transform puppet = null;
     [SerializeField] GameObject Diary;
     [SerializeField] GameObject Settings;
-    //[SerializeField] PlayerAudio audioPlayer = null;
 
     [Header("Movement")]
     [SerializeField] float acceleration = 0.0f;

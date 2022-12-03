@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432692, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: begin
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432692, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: panel
@@ -582,7 +582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432692, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: begin
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432692, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: panel
@@ -731,7 +731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432692, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: begin
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432692, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: panel
@@ -1358,7 +1358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432692, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: begin
-      value: 9.3
+      value: 8.3
       objectReference: {fileID: 0}
     - target: {fileID: 8158552007003432692, guid: a26f1f3f67e68dc4dbe586dd0bec076a, type: 3}
       propertyPath: panel

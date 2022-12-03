@@ -665,7 +665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9075980481107214276, guid: 837a758b9c4be7648b32899737b2e980, type: 3}
       propertyPath: SceneAfterCutScene
-      value: HappyEnding
+      value: Chandra'sHouse3
       objectReference: {fileID: 0}
     - target: {fileID: 9075980481107214277, guid: 837a758b9c4be7648b32899737b2e980, type: 3}
       propertyPath: m_RootOrder

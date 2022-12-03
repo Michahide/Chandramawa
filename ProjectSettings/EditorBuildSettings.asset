@@ -21,8 +21,14 @@ EditorBuildSettings:
     path: Assets/Scenes/CutScenes/ChangeDay1.unity
     guid: a1fe468c1b8a86848b1580c75f6ecee3
   - enabled: 1
+    path: Assets/Scenes/CutScenes/ChangeDay2.unity
+    guid: 847eae3a8b300f840adc093465d698b7
+  - enabled: 1
     path: Assets/Scenes/CutScenes/Death.unity
     guid: 517cd1b115d74454192533eb4f00a6a5
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/HappyEnding.unity
+    guid: 5878d0436d181a042ab8070987b91565
   - enabled: 1
     path: Assets/Scenes/Day1/Chandra'sHouse.unity
     guid: a01fba506b57e8b4ab680bcffff5f072
@@ -53,7 +59,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day2/AutumnTown1.unity
     guid: 2991c5b3f5c729a4d82df28cc4b49a92
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Day2/backtoAutumnTown1.unity
+    guid: e348588743b09e54db1859ec9beffbdf
+  - enabled: 1
+    path: Assets/Scenes/Day3/LeafAlley2.unity
+    guid: 928f4833c07a8374596f614809e6254a
+  - enabled: 1
+    path: Assets/Scenes/Day3/Chandra'sHouse2.unity
+    guid: eeb846cd5dfa5db4cabc7b32a506ba8b
+  - enabled: 1
+    path: Assets/Scenes/Day3/backtoLeafAlley2.unity
+    guid: 15ab0d86d739c374590f329a754e5b11
+  - enabled: 1
+    path: Assets/Scenes/Day3/backtoChandra'sHouse2.unity
+    guid: 9c435ec12303fc344b25886b673e9a37
+  - enabled: 1
+    path: Assets/Scenes/Day3/AutumnTown2.unity
+    guid: 40210e1b6ea33994c84f41240f5d2a8a
+  - enabled: 1
+    path: Assets/Scenes/Day4/Chandra'sHouse3.unity
+    guid: 80166edb81d7feb4c9063c87336707c6
   m_configObjects: {}

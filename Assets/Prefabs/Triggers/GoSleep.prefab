@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeManager: {fileID: 0}
-  Sleep: 0.2
+  Sleep: 0.15
 --- !u!1 &2672717403348270060
 GameObject:
   m_ObjectHideFlags: 0

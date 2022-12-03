@@ -1175,6 +1175,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4985463197768508453, guid: 8b13d87cc8c2ee34ca787fd4239b9c14, type: 3}
+      propertyPath: animOption
+      value: 
+      objectReference: {fileID: 1176539179}
+    - target: {fileID: 4985463197768508453, guid: 8b13d87cc8c2ee34ca787fd4239b9c14, type: 3}
       propertyPath: acceleration
       value: 50
       objectReference: {fileID: 0}
@@ -2281,6 +2285,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 9464cb2301102864b9465ed7f1e43c68, type: 3}
+    - target: {fileID: 8344709278225411196, guid: df1a3680bed0a514097abe4a7f04cc7f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1a3680bed0a514097abe4a7f04cc7f, type: 3}
 --- !u!1 &1176539176 stripped
@@ -2296,6 +2304,11 @@ Animator:
 --- !u!1 &1176539178 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8344709278225411196, guid: df1a3680bed0a514097abe4a7f04cc7f, type: 3}
+  m_PrefabInstance: {fileID: 1176539175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1176539179 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5202633119639163668, guid: df1a3680bed0a514097abe4a7f04cc7f, type: 3}
   m_PrefabInstance: {fileID: 1176539175}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1195887383

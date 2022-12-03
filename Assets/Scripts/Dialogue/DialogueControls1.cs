@@ -1,7 +1,7 @@
 using Yarn.Unity;
 using UnityEngine;
 
-public class DialogueControls : MonoBehaviour
+public class DialogueControls1: MonoBehaviour
 {
     [SerializeField] private TMPro.TMP_Text dialogue = null;
     [SerializeField] private string objectName;
@@ -41,6 +41,7 @@ public class DialogueControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        npc = NPC.GetComponent<NPC>().communication;
         ControlOptions();
     }
 
@@ -79,14 +80,9 @@ public class DialogueControls : MonoBehaviour
 
     private void SkipDialogue()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && NPC != null)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             npc += 1; 
-            dialogueUI.MarkLineComplete();
-        }
-
-        else if (Input.GetKeyDown(KeyCode.Space) && NPC == null)
-        {
             dialogueUI.MarkLineComplete();
         }
     }
@@ -115,13 +111,5 @@ public class DialogueControls : MonoBehaviour
     public void SetOptionDisplayed(bool flag)
     {
         isOptionDisplayed = flag;
-    }
-
-    public void FindNPC()
-    {
-        if(NPC == null)
-        {
-            NPC = GameObject.FindWithTag("NPC");
-        }
     }
 }

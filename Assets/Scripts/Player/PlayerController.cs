@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator animator = null;
     [SerializeField] Transform puppet = null;
     [SerializeField] GameObject Diary;
-    [SerializeField] GameObject optionInGame;
+    [SerializeField] GameObject Settings;
     //[SerializeField] PlayerAudio audioPlayer = null;
 
     [Header("Movement")]
@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
         // Horizontal movement
         if(Diary.activeInHierarchy){DiarySummon();}
 
-        else if (optionInGame.activeInHierarchy)
+        else if (Settings.activeInHierarchy)
         {
             OptionInGameMenu();
         }
@@ -251,16 +251,16 @@ public class PlayerController : MonoBehaviour
         animOption.SetTrigger("DiaryClose");
         yield return new WaitForSeconds(0.8f);
         
-        optionInGame.SetActive(false);
+        Settings.SetActive(false);
 
     }
 
     public void OptionInGameMenu(){
-      if (Input.GetKeyDown(KeyCode.Escape) && !optionInGame.activeInHierarchy)
+      if (Input.GetKeyDown(KeyCode.Escape) && !Settings.activeInHierarchy)
         {
-            optionInGame.SetActive(true);
+            Settings.SetActive(true);
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && optionInGame.activeInHierarchy)
+        else if (Input.GetKeyDown(KeyCode.Escape) && Settings.activeInHierarchy)
         {
             StartCoroutine(OptionClose());
 

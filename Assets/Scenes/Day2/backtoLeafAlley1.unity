@@ -1840,6 +1840,7 @@ MonoBehaviour:
   dialogue: {fileID: 101147604}
   objectName: Kancil1
   NPC: {fileID: 2008762949}
+  npcAnimator: {fileID: 0}
   npc: 0
 --- !u!1 &698463365
 GameObject:
@@ -4959,6 +4960,11 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2325871142702356936, guid: df1a3680bed0a514097abe4a7f04cc7f, type: 3}
   m_PrefabInstance: {fileID: 2123771043}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2123771046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8344709278225411196, guid: df1a3680bed0a514097abe4a7f04cc7f, type: 3}
+  m_PrefabInstance: {fileID: 2123771043}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2139373734
 GameObject:
   m_ObjectHideFlags: 0
@@ -5027,6 +5033,10 @@ PrefabInstance:
       propertyPath: Diary
       value: 
       objectReference: {fileID: 2123771044}
+    - target: {fileID: 4985463197768508453, guid: 8b13d87cc8c2ee34ca787fd4239b9c14, type: 3}
+      propertyPath: Settings
+      value: 
+      objectReference: {fileID: 2123771046}
     - target: {fileID: 4985463197768508453, guid: 8b13d87cc8c2ee34ca787fd4239b9c14, type: 3}
       propertyPath: maxSpeed
       value: 6

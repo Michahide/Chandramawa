@@ -7,7 +7,6 @@ public class CommunicationManager: MonoBehaviour
 {
     [HideInInspector] public int Comm;
 
-    private bool Reset = true;
     public DialogueControls dControl;
     public int Coms;
     static CommunicationManager communicationManager;
@@ -50,14 +49,11 @@ public class CommunicationManager: MonoBehaviour
 
     void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     {
-        if (scene.name == "ChangeDay" || scene.name == "Death" || scene.name == "HappyEnding")
+        if (scene.name == "ChangeDay" || scene.name == "Death" || scene.name == "HappyEnding" || scene.name == "ChangeDay1" || scene.name == "ChangeDay2")
         {
-            if (Reset)
-            {
+
                 Comm = 0;
                 Coms = 0;
-                Reset = false;
-            }
         }
 
     }

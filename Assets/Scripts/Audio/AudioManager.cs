@@ -52,7 +52,7 @@ public class AudioManager : MonoBehaviour
     }
 
      void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode) {
-       if (scene.name == "Death") {
+       if (scene.name == "Death" || scene.name == "HappyEnding") {
             this.gameObject.SetActive(false);
              Debug.Log("I am inside the if statement");
        }

@@ -44,7 +44,14 @@ public class TimeManager : MonoBehaviour
 
     void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     {
-        if (scene.name == "HappyEnding" || scene.name == "ChangeDay" || scene.name == "Death" || scene.name == "MainMenu")
+        if (
+            scene.name == "HappyEnding" || 
+            scene.name == "ChangeDay" || 
+            scene.name == "Death" || 
+            scene.name == "MainMenu" || 
+            scene.name == "ChangeDay1" || 
+            scene.name == "ChangeDay2"
+            )
         {
             
             if (this.gameObject == null){

@@ -4142,7 +4142,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 133321851886197059, guid: 6b22c8857bfe5b048956b2ed540d1a1b, type: 3}
       propertyPath: TimeLeft
-      value: 120
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 133321851886197059, guid: 6b22c8857bfe5b048956b2ed540d1a1b, type: 3}
       propertyPath: NextDayScene

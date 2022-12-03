@@ -1,23 +1,13 @@
-title: Start
+title: Ucok
 tags: 
 colorID: 0
-position: 667,294
+position: 331,-385
 ---
-Ucok: Kamu nanyeaa?
-[[ Iya aku bertanya-tanya |unknown]]
-[[ Kupukul kamu |knowledge]]
-===
-title: unknown
-tags: 
-colorID: 0
-position: 787,76
----
-Ucok: Bacot kau dek, pigi sana!
-===
-title: knowledge
-tags: 
-colorID: 0
-position: 1007,76
----
-Ucok: Yauda dek, aku kasi tau ya, ini tuh rambut cepmek.
+Ucok: Kenapa aku harus bernasib seperti ini
+Ucok: Selalu jadi tumbal
+Ucok: Tidak di video youtube
+Ucok: Tidak di game ini
+Ucok: Selalu aku yang jadi tumbal
+
+Player: (*Sepertinya ini sebuah easter egg*)
 ===

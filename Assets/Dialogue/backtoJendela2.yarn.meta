@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 946cca1307f9f73498e52c1c1a518c9c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - backtoJendela2-backtoJendela2-0
+  - backtoJendela2-backtoJendela2-1
+  - backtoJendela2-backtoJendela2-2
+  - backtoJendela2-backtoJendela2-3
+  - backtoJendela2-backtoJendela2-4
+  - backtoJendela2-backtoJendela2-5
+  - backtoJendela2-backtoJendela2-6
+  - backtoJendela2-backtoJendela2-7
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 946cca1307f9f73498e52c1c1a518c9c, type: 3}
+  localizations: []

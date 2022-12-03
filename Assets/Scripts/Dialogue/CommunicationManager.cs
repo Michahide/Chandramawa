@@ -50,7 +50,7 @@ public class CommunicationManager: MonoBehaviour
 
     void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     {
-        if (scene.name == "ChangeDay")
+        if (scene.name == "ChangeDay" || scene.name == "Death" || scene.name == "HappyEnding")
         {
             if (Reset)
             {

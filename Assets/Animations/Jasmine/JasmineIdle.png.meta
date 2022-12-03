@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 07d2c1e10e2afd0449051027593d09c6
+guid: 5a8e359187d37b64cbd5c9cab181b8d8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle-Spritesheet_0
+      name: JasmineIdle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3640
-        width: 500
-        height: 910
+        x: 19
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eba249560bcd5714f9093d1490d02ffc
-      internalID: -263877884
+      spriteID: b3787d959f9b2044cb952a143956a8be
+      internalID: 1609210457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_1
+      name: JasmineIdle_1
       rect:
         serializedVersion: 2
-        x: 500
-        y: 3640
-        width: 500
-        height: 910
+        x: 520
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c01037e4744285428ce9c6c509e2f24
-      internalID: -970624737
+      spriteID: e492543ce531d8843a62c1716f11df3d
+      internalID: 1674112857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_2
+      name: JasmineIdle_2
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 3640
-        width: 500
-        height: 910
+        x: 1018
+        y: 3713
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5057154a5324c564c993b1b58b3282b3
-      internalID: 1714385440
+      spriteID: 2981a01a4f3cae5459e23928b6191774
+      internalID: 1244313244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_3
+      name: JasmineIdle_3
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 3640
-        width: 500
-        height: 910
+        x: 1519
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a68daf5697e43a64995801f71b9e6be9
-      internalID: -316792001
+      spriteID: 0993b42899d6a2644a7ea605bf9ccf74
+      internalID: 2043543718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_4
+      name: JasmineIdle_4
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 3640
-        width: 500
-        height: 910
+        x: 2020
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25f2f38698cbac644b821102e81751f7
-      internalID: 2129028569
+      spriteID: bfd3e4d75d0921b44bce4551afbaa010
+      internalID: -79836508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_5
+      name: JasmineIdle_5
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 3640
-        width: 500
-        height: 910
+        x: 2518
+        y: 3713
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0e8b2833cc726942bf8c1d533b2fc4e
-      internalID: 2134901433
+      spriteID: c4cadea938d7fbe4fb244482db58c755
+      internalID: -188173503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_6
+      name: JasmineIdle_6
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 3640
-        width: 500
-        height: 910
+        x: 3019
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66761abddd61e1f49ad878cc2de8b474
-      internalID: 1461931956
+      spriteID: 9da4d52305114974090734c639c00459
+      internalID: 203306206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_7
+      name: JasmineIdle_7
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 3640
-        width: 500
-        height: 910
+        x: 3520
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e083fecb6da8e2d4da4c3f62797a7cbe
-      internalID: 62366206
+      spriteID: fdd82c1dbe54b8b489193aff536a251e
+      internalID: -1745001099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_8
+      name: JasmineIdle_8
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 3640
-        width: 500
-        height: 910
+        x: 4021
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1c937e9660755841a8295cafc8cbd59
-      internalID: 115354382
+      spriteID: ea4b4a7c2be9e594c998c37354a64dcb
+      internalID: -1236387923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_9
+      name: JasmineIdle_9
       rect:
         serializedVersion: 2
-        x: 4500
-        y: 3640
-        width: 500
-        height: 910
+        x: 4519
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2065711075ff9a43870cfbde8a90668
-      internalID: 1178479239
+      spriteID: 3ff442056468b3947bad0da4a5b2bc17
+      internalID: -1219297224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_10
+      name: JasmineIdle_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2730
-        width: 500
-        height: 910
+        x: 5020
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d80d198d35cd7847b0ecfe5629f25df
-      internalID: -1113055767
+      spriteID: 8998deb5633cc2443ae1266ab492b0af
+      internalID: 353118554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_11
+      name: JasmineIdle_11
       rect:
         serializedVersion: 2
-        x: 500
-        y: 2730
-        width: 500
-        height: 910
+        x: 5521
+        y: 3713
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7a8f718ecc704e4b90562d263bc5f40
-      internalID: 366790977
+      spriteID: fe690588064a1be439c1e9241a32eb10
+      internalID: -769567803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_12
+      name: JasmineIdle_12
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 2730
-        width: 500
-        height: 910
+        x: 16
+        y: 2805
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d04b4c4fb4b1df49a14ee657b625be6
-      internalID: -1067372632
+      spriteID: d9f5157a06aa7764baa913494e0c80e0
+      internalID: 1829749362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_13
+      name: JasmineIdle_13
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 2730
-        width: 500
-        height: 910
+        x: 517
+        y: 2805
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb556b30447b52d40a2a0a1ed6a20713
-      internalID: -1754860350
+      spriteID: 55394f1f65b0ba64cad20d34bf4cb2c8
+      internalID: 1826161392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_14
+      name: JasmineIdle_14
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 2730
-        width: 500
-        height: 910
+        x: 1016
+        y: 2805
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +413,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14849f9b90ae1e84e8e0cd7e10feef26
-      internalID: -1180296397
+      spriteID: cf626d0d3e6b96447883d1bb0f52f047
+      internalID: 157468900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_15
+      name: JasmineIdle_15
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 2730
-        width: 500
-        height: 910
+        x: 1516
+        y: 2805
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 428abc1b33411f141aa4cfdb0a3ebe08
-      internalID: 332997234
+      spriteID: 3ae67464b8b208b4782a569c3727dd0b
+      internalID: 1148475244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_16
+      name: JasmineIdle_16
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 2730
-        width: 500
-        height: 910
+        x: 2017
+        y: 2805
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a5b677b8ecb5c345a4b266907c1511c
-      internalID: 966645246
+      spriteID: 2dd2b42c2d4407b4aa29bd1ec9cae23d
+      internalID: -217413994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_17
+      name: JasmineIdle_17
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 2730
-        width: 500
-        height: 910
+        x: 2516
+        y: 2805
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,20 +476,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a1ab1bf5632d714cbf7016491d91999
-      internalID: -1652477563
+      spriteID: 83d636159b3249048b74e504d0706c66
+      internalID: -754635684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_18
+      name: JasmineIdle_18
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 2730
-        width: 500
-        height: 910
+        x: 3019
+        y: 2805
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,20 +497,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d83ea0f1da96b4b4f8946ecc5aa25a0b
-      internalID: 741619290
+      spriteID: aba8bf596df22ba41ac462696e0aaf97
+      internalID: -774845929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_19
+      name: JasmineIdle_19
       rect:
         serializedVersion: 2
-        x: 4500
-        y: 2730
-        width: 500
-        height: 910
+        x: 3517
+        y: 2805
+        width: 475
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,20 +518,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0f31929a7f7f214b978c10e50e3fdbd
-      internalID: 337556642
+      spriteID: fac49381377fe0045971fd8c3d75d978
+      internalID: 1614165458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_20
+      name: JasmineIdle_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1820
-        width: 500
-        height: 910
+        x: 4018
+        y: 2805
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,20 +539,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 644ad1039e8ac60408c3ff9623caad58
-      internalID: 1981568589
+      spriteID: b60a50ead03366b4885d228db83e9a88
+      internalID: 1590661057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_21
+      name: JasmineIdle_21
       rect:
         serializedVersion: 2
-        x: 500
-        y: 1820
-        width: 500
-        height: 910
+        x: 4519
+        y: 2805
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,20 +560,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a89c38606ee9352498bc47cdc5979d17
-      internalID: -405477211
+      spriteID: 278a128be56a91049a130fb509b85484
+      internalID: 1070849113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_22
+      name: JasmineIdle_22
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 1820
-        width: 500
-        height: 910
+        x: 5017
+        y: 2805
+        width: 475
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,20 +581,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e2dafce25d7f1a46b92345358e3ea40
-      internalID: -1490457635
+      spriteID: f66c54ee5bad4bc41ad4ca3ab9704921
+      internalID: 925345064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_23
+      name: JasmineIdle_23
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 1820
-        width: 500
-        height: 910
+        x: 5518
+        y: 2805
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,20 +602,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12dc658c4a486454e8e350532345317a
-      internalID: 1296554765
+      spriteID: e04e21734446e9443a0b836b4094d053
+      internalID: 935768145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_24
+      name: JasmineIdle_24
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 1820
-        width: 500
-        height: 910
+        x: 19
+        y: 1894
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,20 +623,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbe5ce2d2e3d01344b81f059e4b10664
-      internalID: -848772159
+      spriteID: 8c083cb6dcb0f404a8831d3e42886aa0
+      internalID: 107148555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_25
+      name: JasmineIdle_25
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 1820
-        width: 500
-        height: 910
+        x: 520
+        y: 1894
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,20 +644,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aff22b3c0d2964469fa32db8662b203
-      internalID: 1244089617
+      spriteID: b359bbf910f045d49b968affaaf8cfce
+      internalID: 623849337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_26
+      name: JasmineIdle_26
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1820
-        width: 500
-        height: 910
+        x: 1018
+        y: 1894
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,20 +665,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87092e1985723554dbdd23b976c5d7bb
-      internalID: -1408165570
+      spriteID: 28be9ce8efc93324294837636e1f932a
+      internalID: 1251430184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_27
+      name: JasmineIdle_27
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 1820
-        width: 500
-        height: 910
+        x: 1519
+        y: 1894
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,20 +686,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71dd0269f3df81c48a0d1ebff142a797
-      internalID: 19282467
+      spriteID: b4a8ebbfe8d4df24a89322517f10375e
+      internalID: 256322156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_28
+      name: JasmineIdle_28
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 1820
-        width: 500
-        height: 910
+        x: 2020
+        y: 1894
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -707,20 +707,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6a2ce2b6cf0432489907654b7d233ad
-      internalID: 1000156830
+      spriteID: 6755649cdb997664fbbf529d94102758
+      internalID: 1978050353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_29
+      name: JasmineIdle_29
       rect:
         serializedVersion: 2
-        x: 4500
-        y: 1820
-        width: 500
-        height: 910
+        x: 2518
+        y: 1894
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,20 +728,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2275a2318c1ee684bbf60965fc5a4947
-      internalID: -22580750
+      spriteID: 3e741ab6ab090f147b83a4ca95d66216
+      internalID: 930391183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_30
+      name: JasmineIdle_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 910
-        width: 500
-        height: 910
+        x: 3019
+        y: 1894
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,20 +749,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00d976953a2045343a20260f73ecc978
-      internalID: 2131381795
+      spriteID: b5c8de866b51c784aa8e3c1bb9012452
+      internalID: -1664005464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_31
+      name: JasmineIdle_31
       rect:
         serializedVersion: 2
-        x: 500
-        y: 910
-        width: 500
-        height: 910
+        x: 3520
+        y: 1894
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -770,20 +770,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fbf860c91812124a8440dd316db3d22
-      internalID: 1915238971
+      spriteID: 10e49b40768741a498626a3bb1300778
+      internalID: 1332459508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_32
+      name: JasmineIdle_32
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 910
-        width: 500
-        height: 910
+        x: 4018
+        y: 1894
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -791,20 +791,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03b65e00f90a14241a1512cd04ff04c2
-      internalID: 228413018
+      spriteID: b6c3a9e9b690e184fa4ae97cec9366ed
+      internalID: -1570664431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_33
+      name: JasmineIdle_33
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 910
-        width: 500
-        height: 910
+        x: 4519
+        y: 1894
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -812,20 +812,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a833e33c32a645f46b07d11c122d129e
-      internalID: -1699740546
+      spriteID: 99aa295622b519a4d85ad0feed7b1f18
+      internalID: -392309152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_34
+      name: JasmineIdle_34
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 910
-        width: 500
-        height: 910
+        x: 5020
+        y: 1894
+        width: 472
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b367cc2be5440f4a9a84c71e6ec3b99
-      internalID: -1655590751
+      spriteID: aabd742afb4fa714d911302b01d95fa3
+      internalID: 101722884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_35
+      name: JasmineIdle_35
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 910
-        width: 500
-        height: 910
+        x: 5518
+        y: 1894
+        width: 474
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -854,20 +854,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a531e5464a0b7a447b4b41655dc9c1d5
-      internalID: 1175518752
+      spriteID: e97d9f7b01933be4caab655d8140e864
+      internalID: -638678766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_36
+      name: JasmineIdle_36
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 910
-        width: 500
-        height: 910
+        x: 19
+        y: 984
+        width: 472
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -875,20 +875,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf6f386e3ed9e874caa353138c996bf2
-      internalID: -143991733
+      spriteID: 1e7dd433a65215149942a052ab75a969
+      internalID: -1508763552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_37
+      name: JasmineIdle_37
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 910
-        width: 500
-        height: 910
+        x: 518
+        y: 984
+        width: 474
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -896,20 +896,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79067fef1444d2a47811faa13e1a4ba2
-      internalID: -1125477438
+      spriteID: 4481d672b8b76ff4a9e92cf50c8890c3
+      internalID: -2005755755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_38
+      name: JasmineIdle_38
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 910
-        width: 500
-        height: 910
+        x: 1018
+        y: 984
+        width: 474
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -917,20 +917,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215c07b6bcb1abd448e90a19f0d3748c
-      internalID: 1349446426
+      spriteID: c21ede606ae81f5419ea243a5e0bcf31
+      internalID: -1165977086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_39
+      name: JasmineIdle_39
       rect:
         serializedVersion: 2
-        x: 4500
-        y: 910
-        width: 500
-        height: 910
+        x: 1519
+        y: 984
+        width: 472
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -938,20 +938,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7119a34e332e2114197de19c1ee89279
-      internalID: 876070772
+      spriteID: 97af7340075bef44385306d3088c7a89
+      internalID: -1272637398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_40
+      name: JasmineIdle_40
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 500
-        height: 910
+        x: 2018
+        y: 984
+        width: 474
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -959,20 +959,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 164e11f39b7714c46b574b136cfe300e
-      internalID: 551680780
+      spriteID: e5529b6aa14e6e14b8ea07685419552f
+      internalID: 1014180542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_41
+      name: JasmineIdle_41
       rect:
         serializedVersion: 2
-        x: 500
-        y: 0
-        width: 500
-        height: 910
+        x: 2518
+        y: 984
+        width: 474
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -980,20 +980,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca022164d0075664d90de0855853e894
-      internalID: -1753773339
+      spriteID: 9260dbe94a737a4429719c159ba171b8
+      internalID: 1200051354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_42
+      name: JasmineIdle_42
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 500
-        height: 910
+        x: 3019
+        y: 984
+        width: 472
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1001,20 +1001,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc392657b44fbba48adb57e35769640b
-      internalID: 1025484319
+      spriteID: 0ab6c587df90a36458e8c1e6473decf7
+      internalID: -1878915976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_43
+      name: JasmineIdle_43
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 0
-        width: 500
-        height: 910
+        x: 3520
+        y: 984
+        width: 472
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1022,20 +1022,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2770ab27052e5c94db153d10727e1f9d
-      internalID: -2045054716
+      spriteID: 84acb54f80fb6f440b83eb9e692bc5d9
+      internalID: 659541958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_44
+      name: JasmineIdle_44
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 0
-        width: 500
-        height: 910
+        x: 4019
+        y: 984
+        width: 474
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1043,20 +1043,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d52707271295a0b4582b52a679adb824
-      internalID: 1747538318
+      spriteID: 3e29c62205147b24193da8c1cc0e3296
+      internalID: 796273662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_45
+      name: JasmineIdle_45
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 0
-        width: 500
-        height: 910
+        x: 4519
+        y: 984
+        width: 472
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1064,20 +1064,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7525c4daeae66ad468ad91b243a0895f
-      internalID: 1756809839
+      spriteID: 1a3163c0b1c0fe54ea1b3045d54e72f8
+      internalID: -1161122291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_46
+      name: JasmineIdle_46
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 0
-        width: 500
-        height: 910
+        x: 5020
+        y: 984
+        width: 472
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1085,20 +1085,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 235e126bc3947c140a76e8a6c505b1bf
-      internalID: -1644335270
+      spriteID: 39cd587c4bc74414ab141d31efe98170
+      internalID: 2122096071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Spritesheet_47
+      name: JasmineIdle_47
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 0
-        width: 500
-        height: 910
+        x: 5519
+        y: 984
+        width: 474
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1106,8 +1106,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0450e40054393154db4e2227fa954563
-      internalID: -1183438877
+      spriteID: 9230975ef186ff943bd886c139a113ec
+      internalID: -558823954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasmineIdle_48
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 78
+        width: 472
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf2005cf0e2a9a48be8611432114d73
+      internalID: 636325789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasmineIdle_49
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 78
+        width: 472
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d37fb4b2138fec40bec6d9c36f100d5
+      internalID: 1204244725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasmineIdle_50
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 78
+        width: 474
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa86afc0ea3d84541b800faf954efa2f
+      internalID: -1435949168
       vertices: []
       indices: 
       edges: []
@@ -1123,54 +1186,57 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle-Spritesheet_19: 337556642
-      Idle-Spritesheet_41: -1753773339
-      Idle-Spritesheet_24: -848772159
-      Idle-Spritesheet_31: 1915238971
-      Idle-Spritesheet_39: 876070772
-      Idle-Spritesheet_25: 1244089617
-      Idle-Spritesheet_47: -1183438877
-      Idle-Spritesheet_40: 551680780
-      Idle-Spritesheet_16: 966645246
-      Idle-Spritesheet_21: -405477211
-      Idle-Spritesheet_46: -1644335270
-      Idle-Spritesheet_18: 741619290
-      Idle-Spritesheet_14: -1180296397
-      Idle-Spritesheet_20: 1981568589
-      Idle-Spritesheet_4: 2129028569
-      Idle-Spritesheet_10: -1113055767
-      Idle-Spritesheet_0: -263877884
-      Idle-Spritesheet_1: -970624737
-      Idle-Spritesheet_7: 62366206
-      Idle-Spritesheet_29: -22580750
-      Idle-Spritesheet_8: 115354382
-      Idle-Spritesheet_38: 1349446426
-      Idle-Spritesheet_26: -1408165570
-      Idle-Spritesheet_13: -1754860350
-      Idle-Spritesheet_34: -1655590751
-      Idle-Spritesheet_22: -1490457635
-      Idle-Spritesheet_28: 1000156830
-      Idle-Spritesheet_2: 1714385440
-      Idle-Spritesheet_45: 1756809839
-      Idle-Spritesheet_17: -1652477563
-      Idle-Spritesheet_6: 1461931956
-      Idle-Spritesheet_36: -143991733
-      Idle-Spritesheet_23: 1296554765
-      Idle-Spritesheet_44: 1747538318
-      Idle-Spritesheet_30: 2131381795
-      Idle-Spritesheet_43: -2045054716
-      Idle-Spritesheet_3: -316792001
-      Idle-Spritesheet_32: 228413018
-      Idle-Spritesheet_35: 1175518752
-      Idle-Spritesheet_33: -1699740546
-      Idle-Spritesheet_15: 332997234
-      Idle-Spritesheet_12: -1067372632
-      Idle-Spritesheet_5: 2134901433
-      Idle-Spritesheet_42: 1025484319
-      Idle-Spritesheet_9: 1178479239
-      Idle-Spritesheet_11: 366790977
-      Idle-Spritesheet_37: -1125477438
-      Idle-Spritesheet_27: 19282467
+      JasmineIdle_34: 101722884
+      JasmineIdle_29: 930391183
+      JasmineIdle_50: -1435949168
+      JasmineIdle_20: 1590661057
+      JasmineIdle_41: 1200051354
+      JasmineIdle_33: -392309152
+      JasmineIdle_21: 1070849113
+      JasmineIdle_14: 157468900
+      JasmineIdle_23: 935768145
+      JasmineIdle_7: -1745001099
+      JasmineIdle_2: 1244313244
+      JasmineIdle_17: -754635684
+      JasmineIdle_0: 1609210457
+      JasmineIdle_28: 1978050353
+      JasmineIdle_3: 2043543718
+      JasmineIdle_39: -1272637398
+      JasmineIdle_37: -2005755755
+      JasmineIdle_26: 1251430184
+      JasmineIdle_16: -217413994
+      JasmineIdle_46: 2122096071
+      JasmineIdle_45: -1161122291
+      JasmineIdle_24: 107148555
+      JasmineIdle_44: 796273662
+      JasmineIdle_38: -1165977086
+      JasmineIdle_31: 1332459508
+      JasmineIdle_25: 623849337
+      JasmineIdle_43: 659541958
+      JasmineIdle_1: 1674112857
+      JasmineIdle_40: 1014180542
+      JasmineIdle_11: -769567803
+      JasmineIdle_12: 1829749362
+      JasmineIdle_22: 925345064
+      JasmineIdle_13: 1826161392
+      JasmineIdle_10: 353118554
+      JasmineIdle_27: 256322156
+      JasmineIdle_15: 1148475244
+      JasmineIdle_42: -1878915976
+      JasmineIdle_19: 1614165458
+      JasmineIdle_47: -558823954
+      JasmineIdle_5: -188173503
+      JasmineIdle_30: -1664005464
+      JasmineIdle_48: 636325789
+      JasmineIdle_9: -1219297224
+      JasmineIdle_49: 1204244725
+      JasmineIdle_35: -638678766
+      JasmineIdle_18: -774845929
+      JasmineIdle_8: -1236387923
+      JasmineIdle_4: -79836508
+      JasmineIdle_36: -1508763552
+      JasmineIdle_6: 203306206
+      JasmineIdle_32: -1570664431
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

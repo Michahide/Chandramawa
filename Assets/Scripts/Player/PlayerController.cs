@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool resetSpeedOnLand = false;
     [SerializeField] public Animator anim;
     [SerializeField] public Animator animOption;
+    [SerializeField] private AudioSource landAudio;
+    [SerializeField] private AudioSource audioJump;
     public bool isGroundHard;
 
     private Rigidbody2D controllerRigidbody;
@@ -47,7 +49,7 @@ public class PlayerController : MonoBehaviour
     public GroundType groundType;
     private bool isFlipped;
     public bool isJumping;
-    private bool isFalling;
+    public bool isFalling;
 
     private int animatorGroundedBool;
     private int animatorRunningSpeed;
@@ -56,6 +58,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+
+        
         controllerRigidbody = GetComponent<Rigidbody2D>();
 
         controllerCollider = GetComponent<Collider2D>();
@@ -125,14 +129,17 @@ public class PlayerController : MonoBehaviour
         if (controllerCollider.IsTouchingLayers(softGroundMask)){
             groundType = GroundType.Soft;
             isGroundHard = false;
+           
         }
         else if (controllerCollider.IsTouchingLayers(hardGroundMask)){
             groundType = GroundType.Hard;
                 isGroundHard = true;
+               
             }
         else{
             groundType = GroundType.None;
             isGroundHard = false;
+           
         }
 
         // Update animator
@@ -185,9 +192,9 @@ public class PlayerController : MonoBehaviour
 
             // Set jumping flag
             isJumping = true;
-
+            isFalling = false;
             // Play audio
-            //audioPlayer.PlayJump();
+            audioJump.Play();
         }
 
         // Landed
@@ -203,10 +210,16 @@ public class PlayerController : MonoBehaviour
             // Reset jumping flags
             isJumping = false;
             isFalling = false;
-            
+            landAudio.Play();
 
             // Play audio
             //audioPlayer.PlayLanding(groundType);
+        }
+
+        else if (isFalling && groundType != GroundType.None)
+        {
+            isFalling = false;
+            landAudio.Play();
         }
     }
 
@@ -234,6 +247,7 @@ public class PlayerController : MonoBehaviour
         {
             // If not grounded then set the gravity scale according to upwards (jump) or downwards (falling) motion.
             gravityScale = controllerRigidbody.velocity.y > 0.0f && Input.GetKey(KeyCode.Space) ? jumpGravityScale : fallGravityScale;
+            isFalling = true;
         }
 
         controllerRigidbody.gravityScale = gravityScale;
